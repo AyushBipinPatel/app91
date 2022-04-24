@@ -1,0 +1,53 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# app91
+
+<!-- badges: start -->
+[![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://lifecycle.r-lib.org/articles/stages.html#experimental)
+<!-- badges: end -->
+
+As a part of the [The 1991 Project](https://the1991project.com/) of the [Mercatus Center](https://www.mercatus.org/) at the [George Mason Univeristy](https://www.gmu.edu/), this app aims to provide intuition about movements in economic growth. 
+
+## NOTICE
+
+Currently this is a project under development. The application is a work in progress. It is not yet publicly released. The app has not yet found its permanent home, remains to be hosted to a permanent url for general use.
+
+
+## Installation
+
+You can install the development version of app91 from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("AyushBipinPatel/app91")
+```
+
+## Example
+
+This package is a [golem](https://golemverse.org/) framework of a [Shiny](https://shiny.rstudio.com/) application. Therefore, this Shiny application can be installed as a package on your machine by following the steps.
+
+```{r example, eval=FALSE}
+library(app91)
+
+app91::run_app()
+
+```
+
+
+
+## Code of Conduct
+  
+Please note that the app91 project is released with a [Contributor Code of Conduct](https://contributor-covenant.org/version/2/0/CODE_OF_CONDUCT.html). By contributing to this project, you agree to abide by its terms.
