@@ -15,7 +15,19 @@
 
 ## Dependencies ----
 ## Amend DESCRIPTION with dependencies read from package code parsing
-attachment::att_amend_desc()
+# attachment::att_amend_desc() This is the new cool way to add dependencies but I need to learn more about it.
+
+## Using the tested and reliable:: Add one line by package you want to add as dependency
+usethis::use_package( "bslib" )
+usethis::use_package( "shinyWidgets" )
+usethis::use_package( "dplyr" )
+#usethis::use_package( "DT" )
+usethis::use_package("highcharter")
+usethis::use_package("tidyr")
+#usethis::use_package("forcats")
+usethis::use_package("htmlwidgets")
+#usethis::use_package("ggplot2")
+usethis::use_pipe(export = FALSE)
 
 ## Add modules ----
 ## Create a module infrastructure in R/
@@ -31,7 +43,7 @@ golem::add_utils("helpers", with_test = TRUE)
 ## Creates .js and .css files at inst/app/www
 golem::add_js_file("script")
 golem::add_js_handler("handlers")
-golem::add_css_file("custom")
+golem::add_css_file("custom") # created
 golem::add_sass_file("custom")
 
 ## Add internal datasets ----
