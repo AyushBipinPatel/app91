@@ -9,9 +9,21 @@ app_ui <- function(request) {
     # Leave this function for adding external resources
     golem_add_external_resources(),
     # Your application UI logic
-    fluidPage(
-      h1("app91")
-    )
+    navbarPage(
+      title = "App 91",
+      theme = bslib::bs_theme(
+        bootswatch = "solar",
+        fg = "#93A1A1",
+        bg = "#2c525d",
+        ),
+      tabPanel(
+        "About",
+        add_about_text()
+        ),
+      tabPanel(
+        "What if ..."
+        )
+      )
   )
 }
 

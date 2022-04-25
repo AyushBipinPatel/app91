@@ -36,7 +36,7 @@ golem::add_module(name = "name_of_module2", with_test = TRUE) # Name of the modu
 
 ## Add helper functions ----
 ## Creates fct_* and utils_*
-golem::add_fct("helpers", with_test = TRUE)
+golem::add_fct("add_about_text", with_test = TRUE) # landing page text and stuff
 golem::add_utils("helpers", with_test = TRUE)
 
 ## External resources
@@ -48,7 +48,7 @@ golem::add_sass_file("custom")
 
 ## Add internal datasets ----
 ## If you have data in your package
-usethis::use_data_raw(name = "my_dataset", open = FALSE)
+usethis::use_data_raw(name = "app_dataset", open = FALSE)
 
 ## Tests ----
 ## Add one line by test you want to create

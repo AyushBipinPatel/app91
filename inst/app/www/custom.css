@@ -1,1 +1,13 @@
- 
+
+.divheader{
+  color: #e7eced;
+}
+
+.normaltext{
+  color: #e7eced;
+  font-size: 20px;
+}
+
+#gif_compound{
+  class: center;
+}
