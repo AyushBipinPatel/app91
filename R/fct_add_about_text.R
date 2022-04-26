@@ -35,14 +35,14 @@ add_about_text <- function(){
                ),
     shiny::div(class = "normaltext",id = "aboutpageh2text",
                shiny::p("A man in India, in the year 1950, receives rupees 1,00,000 in generational wealth. If this amount were to compound at the rate of 10% once a year, starting from 1950, how much money would this man have in the year 2000? Try and arrive at an estimate in your mind. Below is a graph that traces the compounded amount every year."),
-               shiny::img(id = "gif_compound",
-                 src = "www/expl_compound.gif",
-                 width = "800px", height = "600px",
-                 alt = "An animation of compounded amount"
+               shiny::div(class = "divimage", id = "imggif",
+                          shiny::img(id = "gif_compound",
+                                     src = "www/expl_compound.gif",
+                                     width = "800px", height = "600px",
+                                     alt = "An animation of compounded amount"),
 
-               ),
-               style="text-align: center;"
-               ),
+                                     style="text-align: center;"          )
+    ),
 
     shiny::div(class = "divhorizontalrule",
                shiny::hr(shiny::tags$style(color = "#2c525d"))
