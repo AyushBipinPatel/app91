@@ -27,7 +27,7 @@ usethis::use_package("tidyr")
 #usethis::use_package("forcats")
 usethis::use_package("htmlwidgets")
 #usethis::use_package("ggplot2")
-usethis::use_pipe(export = FALSE)
+usethis::use_pipe(export = TRUE)
 
 ## Add modules ----
 ## Create a module infrastructure in R/

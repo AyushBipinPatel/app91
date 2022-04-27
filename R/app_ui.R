@@ -21,7 +21,17 @@ app_ui <- function(request) {
         add_about_text()
         ),
       tabPanel(
-        "What if ..."
+        "What if ...",
+        shiny::sidebarLayout(
+          sidebarPanel = shiny::sidebarPanel(
+            shiny::sliderInput(inputId = "change_rate",
+                               label = "Pick a rate of growth",
+                               min = 1,max = 15,value = 10,step = 0.5)
+          ),
+          shiny::mainPanel(
+            highcharter::highchartOutput("linechart")
+          )
+        )
         )
       )
   )
