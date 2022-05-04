@@ -23,4 +23,4 @@ data_gdp %>% janitor::clean_names() -> data_gdp
 # write to sysdata --------------------------------------------------------
 
 
-usethis::use_data_raw(data_gdp, overwrite = TRUE)
+usethis::use_data(data_gdp,overwrite = T,internal = T)
