@@ -5,10 +5,16 @@ Authors@R: person('Ayush', 'Patel', email = 'ayush.ap58@gmail.com', role = c('cr
 Description: With this application we aim to provide the user with intuitive understanding of movements in economic growth using interactive visualizations.
 License: CC BY 4.0
 Imports: 
+    bslib,
     config (>= 0.3.1),
+    dplyr,
     golem (>= 0.3.2),
+    highcharter,
+    htmlwidgets,
     magrittr,
-    shiny (>= 1.7.1)
+    shiny (>= 1.7.1),
+    shinyWidgets,
+    tidyr
 Encoding: UTF-8
 LazyData: true
 RoxygenNote: 7.1.2
