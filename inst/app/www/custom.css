@@ -14,3 +14,10 @@ Change pproperties for normal text
   font-size: 20px;
 }
 
+/*
+Change the header 5 font sizes to 25px
+*/
+
+.h5{
+  font-size: 25px;
+}

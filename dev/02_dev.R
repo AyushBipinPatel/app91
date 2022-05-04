@@ -27,16 +27,17 @@ usethis::use_package("tidyr")
 #usethis::use_package("forcats")
 usethis::use_package("htmlwidgets")
 #usethis::use_package("ggplot2")
-usethis::use_pipe(export = TRUE)
+usethis::use_pipe(export = FALSE)
 
 ## Add modules ----
 ## Create a module infrastructure in R/
-golem::add_module(name = "name_of_module1", with_test = TRUE) # Name of the module
-golem::add_module(name = "name_of_module2", with_test = TRUE) # Name of the module
+golem::add_module(name = "country_level_growth", with_test = FALSE) # Name of the module
+golem::add_module(name = "name_of_module2", with_test = FALSE) # Name of the module
 
 ## Add helper functions ----
 ## Creates fct_* and utils_*
 golem::add_fct("add_about_text", with_test = TRUE) # landing page text and stuff
+golem::add_fct("add_instruction_explation_text_whatiff", with_test = TRUE)
 golem::add_utils("helpers", with_test = TRUE)
 
 ## External resources

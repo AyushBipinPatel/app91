@@ -22,16 +22,8 @@ app_ui <- function(request) {
         ),
       tabPanel(
         "What if ...",
-        shiny::sidebarLayout(
-          sidebarPanel = shiny::sidebarPanel(
-            shiny::sliderInput(inputId = "change_rate",
-                               label = "Pick a rate of growth",
-                               min = 1,max = 15,value = 10,step = 0.5)
-          ),
-          shiny::mainPanel(
-            highcharter::highchartOutput("linechart")
-          )
-        )
+        mod_country_level_growth_ui("country_level_growth_1")
+
         )
       )
   )
