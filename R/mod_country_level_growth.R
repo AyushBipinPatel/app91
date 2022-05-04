@@ -26,12 +26,24 @@ mod_country_level_growth_ui <- function(id){
           choices = seq(1,20,by = 0.5),
           selected = 10,
           grid = T
+          ),
+        shiny::actionButton(
+          inputId = ns("set_changes"),
+          label = "Apply Changes"
           )
       ),
       mainPanel = shiny::mainPanel(
         shiny::tabsetPanel(
-          shiny::tabPanel(title = "GDP Trends"),
-          shiny::tabPanel(title = "GDP per Capita Trends")
+          shiny::tabPanel(title = "GDP Trends",
+                          highcharter::highchartOutput(outputId = ns("line_gdp"),
+                                                       height = "750px",
+                                                       width = "100%")
+                          ),
+          shiny::tabPanel(title = "GDP per Capita Trends",
+                          highcharter::highchartOutput(outputId = ns("line_gdp_per_capita"),
+                                                       height = "750px",
+                                                       width = "100%")
+                          )
         )
       )
                            )
@@ -44,6 +56,62 @@ mod_country_level_growth_ui <- function(id){
 mod_country_level_growth_server <- function(id){
   moduleServer( id, function(input, output, session){
     ns <- session$ns
+
+    # setting reactive values that will be need in further calculations-----------
+
+    react_year <- shiny::eventReactive(input$set_changes,{
+      input$choice_year
+    })
+    react_rate <- shiny::eventReactive(input$set_changes,{
+      input$choice_rate
+    })
+    react_start_gdp_val <- shiny::eventReactive(input$set_changes,{
+      data_gdp$gdp_current_usd[data_gdp$year == react_year()]
+    })
+
+    # create a reactive data frame----------------------------------------
+
+    data_reactive <- shiny::eventReactive(input$set_changes,{
+      data_gdp %>%
+        dplyr::mutate(
+          trend_gdp = ifelse(year >= react_year(),
+                             react_start_gdp_val() * (((react_rate()/100)+1)^(year-react_year())),
+                             gdp_current_usd
+          ),
+          trend_gdp_per_capita = trend_gdp/total_population
+        )
+    })
+
+
+# create charts -----------------------------------------------------------
+
+    output$line_gdp <- highcharter::renderHighchart({
+
+      add_create_comparitive_time_series_chart(
+        data_fetch = data_reactive(),
+        xval = "gdp_current_usd",
+        yval = "trend_gdp",
+        plt_title = "Actual GDP trend compared to the scenario GDP trend",
+        flname = "actual_vs_scenario_gdp",
+        labx = "Actual GDP trend",
+        laby = "Scenario GDP trend"
+      )
+    })
+
+
+    output$line_gdp_per_capita <- highcharter::renderHighchart({
+
+      add_create_comparitive_time_series_chart(
+        data_fetch = data_reactive(),
+        xval = "gdp_per_capita_current_usd",
+        yval = "trend_gdp_per_capita",
+        plt_title = "Actual GDP per capita trend compared to the scenario GDP per capita trend",
+        flname = "actual_vs_scenario_gdp_per_capita",
+        labx = "Actual GDP per capita trend",
+        laby = "Scenario GDP per capita trend"
+      )
+    })
+
 
   })
 }

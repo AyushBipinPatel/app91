@@ -38,6 +38,7 @@ golem::add_module(name = "name_of_module2", with_test = FALSE) # Name of the mod
 ## Creates fct_* and utils_*
 golem::add_fct("add_about_text", with_test = TRUE) # landing page text and stuff
 golem::add_fct("add_instruction_explation_text_whatiff", with_test = TRUE)
+golem::add_fct("add_create_comparitive_time_series_chart", with_test = FALSE)
 golem::add_utils("helpers", with_test = TRUE)
 
 ## External resources
