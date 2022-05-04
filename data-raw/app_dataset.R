@@ -14,18 +14,13 @@ library(readr)
 read_csv("data-raw/1_data_gdp_and_percapita_gdp.csv") -> data_gdp
 
 
-# check if column names are proper ----------------------------------------
-
-
+# create proper column columns ----------------------------------------
 
 
 data_gdp %>% janitor::clean_names() -> data_gdp
 
-data_gdp %>% mutate(
-  year_seq = c(0:60)
-) -> data_gdp
 
-
+# write to sysdata --------------------------------------------------------
 
 
 usethis::use_data(data_gdp, overwrite = TRUE)
