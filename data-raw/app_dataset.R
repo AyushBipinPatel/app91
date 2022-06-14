@@ -14,7 +14,7 @@ library(readr)
 read_csv("data-raw/1_data_gdp_and_percapita_gdp.csv") -> data_gdp
 
 
-# create proper column columns ----------------------------------------
+# data prep ----------------------------------------
 
 
 data_gdp %>% janitor::clean_names() -> data_gdp # India national level data for gdp and gdp per capita
