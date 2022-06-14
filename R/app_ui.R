@@ -27,7 +27,8 @@ app_ui <- function(request) {
           mod_country_level_growth_ui("country_level_growth_1")
           ),
         shiny::tabPanel(
-          "What can be ..." # UI side of the module for country level growth trends - future
+          "What can be ...", # UI side of the module for country level growth trends - future
+          mod_country_level_growth_extrapolate_ui("country_level_growth_extrapolate_1")
         )
       ),
       shiny::navbarMenu(

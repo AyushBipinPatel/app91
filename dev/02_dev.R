@@ -31,13 +31,15 @@ usethis::use_pipe(export = FALSE)
 
 ## Add modules ----
 ## Create a module infrastructure in R/
-golem::add_module(name = "country_level_growth", with_test = FALSE) # Name of the module
+golem::add_module(name = "country_level_growth", with_test = FALSE) # Module to create GDP and GDP per capita time series charts for India national level, backward looking
+golem::add_module(name = "country_level_growth_extrapolate", with_test = FALSE) # Module to create a time series chart for India National GDP and GDP per capita, forward looking
 golem::add_module(name = "name_of_module2", with_test = FALSE) # Name of the module
 
 ## Add helper functions ----
 ## Creates fct_* and utils_*
 golem::add_fct("add_about_text", with_test = TRUE) # landing page text and stuff
-golem::add_fct("add_instruction_explation_text_whatiff", with_test = TRUE)
+golem::add_fct("add_instruction_explation_text_whatiff", with_test = TRUE) # instructions for users to use the inputs and genrate charts for the backward looking national gdp and gdp per capita trends
+golem::add_fct("add_instruction_explation_text_national_growth_extrapolate", with_test = TRUE) # instructions for users to use the inputs and genrate charts for the forward looking national gdp and gdp per capita trends
 golem::add_fct("add_create_comparitive_time_series_chart", with_test = FALSE)
 golem::add_utils("helpers", with_test = TRUE)
 
