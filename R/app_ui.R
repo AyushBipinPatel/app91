@@ -9,22 +9,36 @@ app_ui <- function(request) {
     # Leave this function for adding external resources
     golem_add_external_resources(),
     # Your application UI logic
-    navbarPage(
+    shiny::navbarPage(
       title = "App 91",
       theme = bslib::bs_theme(
         bootswatch = "solar",
         fg = "#93A1A1",
         bg = "#2c525d",
         ),
-      tabPanel(
+      shiny::tabPanel(
         "About",
         add_about_text()
         ),
-      tabPanel(
-        "What if ...",
-        mod_country_level_growth_ui("country_level_growth_1")
-
+      shiny::navbarMenu(
+        "India's National Growth Trends",
+        shiny::tabPanel(
+          "What could have been...",# UI side of the module for country level growth trends - past
+          mod_country_level_growth_ui("country_level_growth_1")
+          ),
+        shiny::tabPanel(
+          "What can be ..." # UI side of the module for country level growth trends - future
         )
+      ),
+      shiny::navbarMenu(
+        "India's state level Growth Trends",
+        shiny::tabPanel(
+          "Brief on trends of all states",
+        ),
+        shiny::tabPanel(
+          "State level trends"
+        )
+      )
       )
   )
 }
