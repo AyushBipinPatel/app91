@@ -34,7 +34,7 @@ add_instruction_explation_text_whatiff <- function(){
                  ),
                  shiny::h5(class = "h5",
                            id = "step2Instruction",
-                           "Step 1: Choose a rate of growth"
+                           "Step 2: Choose a rate of growth"
                            ),
                  shiny::p(
                    "This the the rate at which the GDP and GDP per capita will change, starting from the year after the selected year. We have provided a range from which you can choose the percentage growth rate."
