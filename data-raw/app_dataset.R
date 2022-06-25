@@ -11,8 +11,10 @@ library(readr)
 
 # read data ---------------------------------------------------------------
 
+# India's national level gdp and gdppc data
 read_csv("data-raw/1_data_gdp_and_percapita_gdp.csv") -> data_gdp
-
+# 15 countries of interest with their national level gdppc data
+read.csv("data-raw/7_data_countries_interest_compare_gdp_per_capita_forward.csv") -> data_gdppc_countries
 
 # data prep ----------------------------------------
 
@@ -33,4 +35,4 @@ rbind(
 # write to sysdata --------------------------------------------------------
 
 
-usethis::use_data(data_gdp,data_gdp_future,overwrite = T,internal = T)
+usethis::use_data(data_gdp,data_gdppc_countries,data_gdp_future,overwrite = T,internal = T)
