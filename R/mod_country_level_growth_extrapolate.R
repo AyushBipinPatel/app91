@@ -24,9 +24,29 @@ mod_country_level_growth_extrapolate_ui <- function(id){
         ),
         shiny::actionButton(
           inputId = ns("set_changes"),
-          label = "Apply Changes"
+          label = "Change Growth Rate"
+        ),
+        shiny::tags$hr(),
+        shiny::tags$p(shiny::tags$b("Add a reference threshold for GDP/GDPP")),
+        shinyWidgets::pickerInput(
+          inputId = ns("choice_country_compare"),
+          label = "Pick a country to compare",
+          choices = unique(data_gdppc_countries$country_name),
+          selected = "Australia",
+          options = list(`live-search` = TRUE)
+        ),
+        shinyWidgets::sliderTextInput(
+          inputId = ns("choice_country_year"),
+          label = "Choose year for GDP/GDP per capita",
+          choices = seq(1960,2020,by = 1),
+          selected = 1990,
+          grid = T
+        ),
+        shiny::actionButton(
+          inputId = ns("set_country_changes"),
+          label = "Add refrence to compare"
         )
-      ),
+        ),
       mainPanel = shiny::mainPanel(
         shiny::tabsetPanel(
           shiny::tabPanel(title = "GDP Trends",
@@ -58,7 +78,7 @@ mod_country_level_growth_extrapolate_server <- function(id){
 
     react_rate <- shiny::eventReactive(input$set_changes,{
       input$choice_rate
-    })
+    },ignoreNULL = F)
     start_gdp_val <-  data_gdp_future$gdp_current_usd[data_gdp_future$year == 2020]
 
     # create a reactive data frame----------------------------------------
@@ -72,7 +92,44 @@ mod_country_level_growth_extrapolate_server <- function(id){
           ),
           trend_gdp_per_capita = trend_gdp/total_population
         )
-    })
+    },ignoreNULL = F)
+
+
+    # section to control Dynamic UI for the  forward looking  comparis --------
+
+    shiny::observeEvent(input$choice_country_compare,{
+      shinyWidgets::updateSliderTextInput(session = session,
+        inputId = "choice_country_year",
+        choices = seq(min(data_gdppc_countries$year[data_gdppc_countries == input$choice_country_compare & (!is.na(data_gdppc_countries$gdp_per_capita))],na.rm =T),
+                      max(data_gdppc_countries$year[data_gdppc_countries == input$choice_country_compare & (!is.na(data_gdppc_countries$gdp_per_capita))],na.rm =T),
+                      by = 1)
+      )
+    },ignoreNULL = F)
+
+
+    # set the reference gdppc of a country as reactive val --------------------
+
+        compare_country <- shiny::eventReactive(input$set_country_changes,{
+
+          input$choice_country_compare
+
+        },ignoreNULL = F)
+
+        compare_country_year <- shiny::eventReactive(input$set_country_changes,{
+
+          input$choice_country_year
+
+        },ignoreNULL = F)
+
+        reference_gdppc <- reactive({
+
+          data_gdppc_countries$gdp_per_capita[data_gdppc_countries$country_name == compare_country() &
+                                                data_gdppc_countries$year == compare_country_year()]
+
+        })
+
+
+
 
 
     # create charts -----------------------------------------------------------
@@ -100,7 +157,8 @@ mod_country_level_growth_extrapolate_server <- function(id){
         plt_title = "Actual GDP per capita trend compared to the Extrapolated GDP per capita trend",
         flname = "actual_vs_extrapolated_gdp_per_capita",
         labx = "Actual GDP per capita trend",
-        laby = "Extrapolated GDP per capita trend"
+        laby = "Extrapolated GDP per capita trend",
+        ref_val_gdppc = reference_gdppc()
       )
     })
 

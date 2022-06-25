@@ -61,13 +61,13 @@ mod_country_level_growth_server <- function(id){
 
     react_year <- shiny::eventReactive(input$set_changes,{
       input$choice_year
-    })
+    },ignoreNULL = F)
     react_rate <- shiny::eventReactive(input$set_changes,{
       input$choice_rate
-    })
+    },ignoreNULL = F)
     react_start_gdp_val <- shiny::eventReactive(input$set_changes,{
       data_gdp$gdp_current_usd[data_gdp$year == react_year()]
-    })
+    },ignoreNULL = F)
 
     # create a reactive data frame----------------------------------------
 
@@ -80,7 +80,7 @@ mod_country_level_growth_server <- function(id){
           ),
           trend_gdp_per_capita = trend_gdp/total_population
         )
-    })
+    },ignoreNULL = F)
 
 
 # create charts -----------------------------------------------------------
