@@ -15,6 +15,7 @@ app_ui <- function(request) {
         bootswatch = "solar",
         fg = "#93A1A1",
         bg = "#2c525d",
+        version = 4
         ),
       shiny::tabPanel(
         "About",
