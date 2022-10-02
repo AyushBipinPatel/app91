@@ -25,7 +25,7 @@ add_create_comparitive_time_series_chart  <- function(data_fetch,
                                                       ref_val_gdp = NULL,
                                                       ref_val_gdppc = NULL) {
 
-  if(xval == "gdp_current_usd" | "gdp"){
+  if(xval == "gdp_current_usd" | xval == "gdp"){
     highcharter::hchart(data_fetch, "line",
                         highcharter::hcaes(year, .data[[xval]]),
                         color = "#e7eced",  name = labx) %>%
@@ -46,10 +46,17 @@ add_create_comparitive_time_series_chart  <- function(data_fetch,
       highcharter::hc_xAxis(title = list(text = "Year")) %>%
       highcharter::hc_yAxis(title = list(text =  ifelse(xval == "gdp","GDP in Bilions INR",
                                                         "GDP in Bilions USD")),
-                            labels = list(formatter = htmlwidgets::JS("function(){
+                            labels = list(formatter = if(xval == "gdp"){
+                              htmlwidgets::JS("function(){
+                                                        return this.value/10000 + 'B'
+                          }")
+                            }else{
+                              htmlwidgets::JS("function(){
                                                         return this.value/1000000000 + 'B'
-                          }"),
-                          format = "${text}"),
+                          }")
+                            },
+                          format = "${text}"
+                          ),
                           plotLines = list(
                             list(
                               label = list(text = "GDP of the selected Country",
@@ -91,8 +98,11 @@ add_create_comparitive_time_series_chart  <- function(data_fetch,
       highcharter::hc_xAxis(title = list(text = "Year")) %>%
       highcharter::hc_yAxis(title = list(text = ifelse(xval == "gdp","GDP per capita in INR",
                                                        "GDP per capita in USD")),
-                            labels = list(formatter = ifelse(xval == "gdp",htmlwidgets::JS("function(){return this.value + 'INR'}"),
-                                                             htmlwidgets::JS("function(){return this.value + 'USD'}")),
+                            labels = list(formatter = if(xval == "gdp"){
+                              htmlwidgets::JS("function(){return this.value + 'INR'}")
+                              }else{
+                                htmlwidgets::JS("function(){return this.value + 'USD'}")
+                              },
                           format = "${text}"),
                           plotLines = list(
                             list(
