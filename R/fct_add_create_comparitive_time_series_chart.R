@@ -96,9 +96,9 @@ add_create_comparitive_time_series_chart  <- function(data_fetch,
         style = list(color = "#22A884", useHTML = TRUE)
       )  %>%
       highcharter::hc_xAxis(title = list(text = "Year")) %>%
-      highcharter::hc_yAxis(title = list(text = ifelse(xval == "gdp","GDP per capita in INR",
+      highcharter::hc_yAxis(title = list(text = ifelse(xval == "gdppc","GDP per capita in INR",
                                                        "GDP per capita in USD")),
-                            labels = list(formatter = if(xval == "gdp"){
+                            labels = list(formatter = if(xval == "gdppc"){
                               htmlwidgets::JS("function(){return this.value + 'INR'}")
                               }else{
                                 htmlwidgets::JS("function(){return this.value + 'USD'}")

@@ -13,12 +13,13 @@ mod_state_trends_ui <- function(id){
     add_instruction_explation_text_whatiff(), ## change this for states
     shiny::sidebarLayout(
       sidebarPanel = shiny::sidebarPanel(
-        shinyWidgets::sliderTextInput(
+        shinyWidgets::pickerInput(
           inputId = ns("choice_state"),
           label = "Choose State",
           choices = unique(india_states_gdp$states),
-          selected = unique(india_states_gdp$states)[1],
-          grid = T
+          options = list(
+            `live-search` = TRUE
+          )
         ),
         shinyWidgets::sliderTextInput(
           inputId = ns("choice_year"),
@@ -67,15 +68,22 @@ mod_state_trends_server <- function(id){
     # Update year range depending on the state selection -------------
 
     shiny::observeEvent(input$choice_state,{
-      shinyWidgets::updateSliderTextInput(inputId = "choice_year",
-                                          choices = seq(india_states_gdp|>
-                                                          dplyr::filter(states == input$choice_state & !is.na(year))|>
-                                                          pull(year)|>min(),
-                                                        india_states_gdp|>
-                                                          dplyr::filter(states == input$choice_state & !is.na(year))|>
-                                                          pull(year)|>max(),
-                                                        by = 1))
-    })
+
+
+      min_c = india_states_gdp|>
+        dplyr::filter(states == input$choice_state & !is.na(year))|>
+        dplyr::pull(year)|> min()
+
+      max_c = india_states_gdp|>
+        dplyr::filter(states == input$choice_state & !is.na(year))|>
+        dplyr::pull(year)|> max()
+
+      shinyWidgets::updateSliderTextInput(inputId = ns("choice_year"),
+                                          choices = seq(min_c, max_c,
+                                                        by = 1),
+                                          selected = min_c,
+                                          session = session)
+    },ignoreNULL = F)
 
 
 
@@ -91,18 +99,18 @@ mod_state_trends_server <- function(id){
       input$choice_rate
     },ignoreNULL = F)
     react_state_data_gdp <- shiny::eventReactive(input$set_changes,{
-      india_states_gdp[india_states_gdp$states == react_state()]
-    })
+      india_states_gdp[india_states_gdp$states == react_state(),]
+    },ignoreNULL = F)
     react_state_data_gdppc <- shiny::eventReactive(input$set_changes,{
-      india_states_gdppc[india_states_gdppc$states == react_state()]
-    })
+      india_states_gdppc[india_states_gdppc$states == react_state(),]
+    },ignoreNULL = F)
     react_start_gdp_val <- shiny::eventReactive(input$set_changes,{
-      react_start_gdp_val() |>
+      react_state_data_gdp() |>
         dplyr::filter(year == react_year())|>
         dplyr::pull(gdp)
     },ignoreNULL = F)
     react_start_gdppc_val <- shiny::eventReactive(input$set_changes,{
-      react_start_gdppc_val() |>
+      react_state_data_gdppc() |>
         dplyr::filter(year == react_year())|>
         dplyr::pull(gdppc)
     },ignoreNULL = F)
@@ -110,10 +118,9 @@ mod_state_trends_server <- function(id){
     # create a reactive data frames----------------------------------------
 
     data_reactive_gdp <- shiny::eventReactive(input$set_changes,{
-      react_state_data_gdp |>
+      react_state_data_gdp() |>
         dplyr::filter(!is.na(year))|>
         dplyr::mutate(
-          gdp = gdp*100000,
           trend_gdp = ifelse(year >= react_year(),
                              react_start_gdp_val() * (((react_rate()/100)+1)^(year-react_year())),
                              gdp
@@ -122,7 +129,7 @@ mod_state_trends_server <- function(id){
     },ignoreNULL = F)
 
     data_reactive_gdppc <- shiny::eventReactive(input$set_changes,{
-      react_state_data_gdppc |>
+      react_state_data_gdppc() |>
         dplyr::filter(!is.na(year))|>
         dplyr::mutate(
           trend_gdppc = ifelse(year >= react_year(),
@@ -138,7 +145,7 @@ mod_state_trends_server <- function(id){
     output$line_gdp <- highcharter::renderHighchart({
 
       add_create_comparitive_time_series_chart(
-        data_fetch = data_reactive_gdp,
+        data_fetch = data_reactive_gdp(),
         xval = "gdp",
         yval = "trend_gdp",
         plt_title = paste(react_state(),
@@ -156,9 +163,9 @@ mod_state_trends_server <- function(id){
     output$line_gdp_per_capita <- highcharter::renderHighchart({
 
       add_create_comparitive_time_series_chart(
-        data_fetch = data_reactive_gdppc,
-        xval = "gdp_per_capita",
-        yval = "trend_gdp_per_capita",
+        data_fetch = data_reactive_gdppc(),
+        xval = "gdppc",
+        yval = "trend_gdppc",
         plt_title = paste(
           react_state(),
           ": Actual GDP per capita trend compared to the scenario GDP per capita trend",
