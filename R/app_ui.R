@@ -38,7 +38,8 @@ app_ui <- function(request) {
           "Brief on trends of all states",
         ),
         shiny::tabPanel(
-          "State level trends"
+          "State level trends" ,# UI module for state growth trends
+          mod_state_trends_ui("state_trends_1")
         )
       )
       )
