@@ -25,9 +25,9 @@ tidyr::pivot_longer(data = india_states_gdp,
                     cols = c(-1),
                     names_to = "states" ,
                     values_to = "gdp")%>%
-  filter(Year != "2021-2022") %>%
+  filter(year != "2021-2022") %>%
   mutate(
-    Year = stringr::str_extract(Year, "...."),
+    year = stringr::str_extract(year, "...."),
     states = stringr::str_replace_all(states,"\\."," ")
   )-> india_states_gdp
 
@@ -39,9 +39,9 @@ tidyr::pivot_longer(data = india_states_gdppc,
                     cols = c(-1),
                     names_to = "states" ,
                     values_to = "gdppc") %>%
-  filter(Year != "2021-2022")%>%
+  filter(year != "2021-2022")%>%
   mutate(
-    Year = stringr::str_extract(Year, "...."),
+    year = stringr::str_extract(year, "...."),
     states = stringr::str_replace_all(states,"\\."," ")
   )-> india_states_gdppc
 
