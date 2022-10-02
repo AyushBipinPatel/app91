@@ -21,13 +21,29 @@ read.csv("data-raw/7_data_countries_interest_compare_gdp_per_capita_forward.csv"
 
 read.csv(here("data-raw/9_1_data_epw_series_sdp_net.csv")) -> india_states_gdp
 
-janitor::clean_names(india_states_gdp) -> india_states_gdp
+tidyr::pivot_longer(data = india_states_gdp,
+                    cols = c(-1),
+                    names_to = "states" ,
+                    values_to = "gdp")%>%
+  filter(Year != "2021-2022") %>%
+  mutate(
+    Year = stringr::str_extract(Year, "...."),
+    states = stringr::str_replace_all(states,"\\."," ")
+  )-> india_states_gdp
 
 # Stae gdppc data for india
 
 read.csv(here("data-raw/10_1_data_epw_series_per_capita_sdp_net.csv")) -> india_states_gdppc
 
-janitor::clean_names(india_states_gdppc) -> india_states_gdppc
+tidyr::pivot_longer(data = india_states_gdppc,
+                    cols = c(-1),
+                    names_to = "states" ,
+                    values_to = "gdppc") %>%
+  filter(Year != "2021-2022")%>%
+  mutate(
+    Year = stringr::str_extract(Year, "...."),
+    states = stringr::str_replace_all(states,"\\."," ")
+  )-> india_states_gdppc
 
 
 # data prep ----------------------------------------
