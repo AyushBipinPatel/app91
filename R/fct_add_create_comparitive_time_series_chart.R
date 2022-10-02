@@ -25,7 +25,7 @@ add_create_comparitive_time_series_chart  <- function(data_fetch,
                                                       ref_val_gdp = NULL,
                                                       ref_val_gdppc = NULL) {
 
-  if(xval == "gdp_current_usd"){
+  if(xval == "gdp_current_usd" | "gdp"){
     highcharter::hchart(data_fetch, "line",
                         highcharter::hcaes(year, .data[[xval]]),
                         color = "#e7eced",  name = labx) %>%
@@ -44,7 +44,8 @@ add_create_comparitive_time_series_chart  <- function(data_fetch,
         style = list(color = "#22A884", useHTML = TRUE)
       )  %>%
       highcharter::hc_xAxis(title = list(text = "Year")) %>%
-      highcharter::hc_yAxis(title = list(text =  "GDP in Bilions USD"),
+      highcharter::hc_yAxis(title = list(text =  ifelse(xval == "gdp","GDP in Bilions INR",
+                                                        "GDP in Bilions USD")),
                             labels = list(formatter = htmlwidgets::JS("function(){
                                                         return this.value/1000000000 + 'B'
                           }"),
@@ -88,8 +89,10 @@ add_create_comparitive_time_series_chart  <- function(data_fetch,
         style = list(color = "#22A884", useHTML = TRUE)
       )  %>%
       highcharter::hc_xAxis(title = list(text = "Year")) %>%
-      highcharter::hc_yAxis(title = list(text = "GDP per capita in USD"),
-                            labels = list(formatter = htmlwidgets::JS("function(){return this.value + 'USD'}"),
+      highcharter::hc_yAxis(title = list(text = ifelse(xval == "gdp","GDP per capita in INR",
+                                                       "GDP per capita in USD")),
+                            labels = list(formatter = ifelse(xval == "gdp",htmlwidgets::JS("function(){return this.value + 'INR'}"),
+                                                             htmlwidgets::JS("function(){return this.value + 'USD'}")),
                           format = "${text}"),
                           plotLines = list(
                             list(
