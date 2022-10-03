@@ -68,21 +68,21 @@ mod_state_trends_server <- function(id){
     # Update year range depending on the state selection, dynamic UI -------------
 
     shiny::observeEvent(input$choice_state,{
+
+      min_c <- india_states_gdp$year[india_states_gdp$states == input$choice_state &
+                                       !is.na(india_states_gdp$gdp)]|>
+        min(na.rm = T)
+
+      max_c <- india_states_gdp$year[india_states_gdp$states == input$choice_state &
+                                     !is.na(india_states_gdp$gdp)]|>
+        max(na.rm = T)
+
+
+
       shinyWidgets::updateSliderTextInput(session = session,
                                           inputId = "choice_year",
-                                          choices = seq(india_states_gdp %>%
-                                                          dplyr::filter(states == input$choice_state & !is.na(gdp)) %>%
-                                                          dplyr::pull(year) |>
-                                                          min(na.rm = T),
-                                                        india_states_gdp %>%
-                                                          dplyr::filter(states == input$choice_state & !is.na(gdp)) %>%
-                                                          dplyr::pull(year) |>
-                                                          max(na.rm = T),
-                                                              by = 1),
-                                          selected = india_states_gdp %>%
-                                            dplyr::filter(states == input$choice_state & !is.na(gdp)) %>%
-                                            dplyr::pull(year) |>
-                                            min(na.rm = T)
+                                          choices = seq(min_c,max_c,by = 1),
+                                          selected = min_c
                                           )
     }, ignoreNULL = F)
 
