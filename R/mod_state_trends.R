@@ -25,7 +25,7 @@ mod_state_trends_ui <- function(id){
           inputId = ns("choice_year"),
           label = "Choose Year",
           choices = seq(1960,2019,by = 1),
-          selected = 1960,
+          selected = 1991,
           grid = T
         ),
         shinyWidgets::sliderTextInput(
@@ -65,27 +65,26 @@ mod_state_trends_server <- function(id){
   moduleServer( id, function(input, output, session){
     ns <- session$ns
 
-    # Update year range depending on the state selection -------------
+    # Update year range depending on the state selection, dynamic UI -------------
 
     shiny::observeEvent(input$choice_state,{
-
-
-      min_c = india_states_gdp|>
-        dplyr::filter(states == input$choice_state & !is.na(year))|>
-        dplyr::pull(year)|> min()
-
-      max_c = india_states_gdp|>
-        dplyr::filter(states == input$choice_state & !is.na(year))|>
-        dplyr::pull(year)|> max()
-
-      shinyWidgets::updateSliderTextInput(inputId = "choice_year",
-                                          choices = seq(min_c, max_c,
-                                                        by = 1),
-                                          selected = min_c,
-                                          session = session)
-    },ignoreNULL = F)
-
-
+      shinyWidgets::updateSliderTextInput(session = session,
+                                          inputId = "choice_year",
+                                          choices = seq(india_states_gdp %>%
+                                                          dplyr::filter(states == input$choice_state & !is.na(gdp)) %>%
+                                                          dplyr::pull(year) |>
+                                                          min(na.rm = T),
+                                                        india_states_gdp %>%
+                                                          dplyr::filter(states == input$choice_state & !is.na(gdp)) %>%
+                                                          dplyr::pull(year) |>
+                                                          max(na.rm = T),
+                                                              by = 1),
+                                          selected = india_states_gdp %>%
+                                            dplyr::filter(states == input$choice_state & !is.na(gdp)) %>%
+                                            dplyr::pull(year) |>
+                                            min(na.rm = T)
+                                          )
+    }, ignoreNULL = F)
 
     # setting reactive values that will be need in further calculations-----------
 
