@@ -78,7 +78,7 @@ mod_state_trends_server <- function(id){
         dplyr::filter(states == input$choice_state & !is.na(year))|>
         dplyr::pull(year)|> max()
 
-      shinyWidgets::updateSliderTextInput(inputId = ns("choice_year"),
+      shinyWidgets::updateSliderTextInput(inputId = "choice_year",
                                           choices = seq(min_c, max_c,
                                                         by = 1),
                                           selected = min_c,
@@ -133,7 +133,7 @@ mod_state_trends_server <- function(id){
         dplyr::filter(!is.na(year))|>
         dplyr::mutate(
           trend_gdppc = ifelse(year >= react_year(),
-                             react_start_gdp_val() * (((react_rate()/100)+1)^(year-react_year())),
+                             react_start_gdppc_val() * (((react_rate()/100)+1)^(year-react_year())),
                              gdppc
           )
         )
