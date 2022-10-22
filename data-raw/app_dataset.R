@@ -10,12 +10,24 @@ library(readr)
 
 
 
-# read data ---------------------------------------------------------------
+# read and prep data ---------------------------------------------------------------
 
 # India's national level gdp and gdppc data
 read_csv("data-raw/1_data_gdp_and_percapita_gdp.csv") -> data_gdp
 # 15 countries of interest with their national level gdppc data
-read.csv("data-raw/7_data_countries_interest_compare_gdp_per_capita_forward.csv") -> data_gdppc_countries
+read_csv("data-raw/7_data_countries_interest_compare_gdp_per_capita_forward.csv") -> data_gdppc_countries
+# 15 countries of interest with their gdp
+read_csv("data-raw/11_data_countries_interest_compare_gdp.csv")-> data_gdp_countries
+
+data_gdp_countries %>%
+  mutate(
+    across(.cols = contains("YR"),.fns = as.numeric)
+  ) %>%
+  tidyr::pivot_longer(cols = c(2:62),names_to = "Year",values_to = "gdp",values_drop_na = T) %>%
+  mutate(
+    Year = stringr::str_extract(Year,"....")|>as.numeric()
+  )-> data_gdp_countries
+
 
 # State gdp data for india
 
@@ -46,7 +58,7 @@ tidyr::pivot_longer(data = india_states_gdppc,
   )-> india_states_gdppc
 
 
-# data prep ----------------------------------------
+# data prep for forward looking national level ----------------------------------------
 
 
 data_gdp %>% janitor::clean_names() -> data_gdp # India national level data for gdp and gdp per capita
@@ -67,6 +79,6 @@ rbind(
 
 usethis::use_data(data_gdp,data_gdppc_countries,
                   data_gdp_future,india_states_gdp,
-                  india_states_gdppc,
+                  india_states_gdppc,data_gdp_countries,
                   overwrite = T,internal = T)
 
