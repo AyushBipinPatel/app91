@@ -128,6 +128,13 @@ mod_country_level_growth_extrapolate_server <- function(id){
 
         })
 
+        reference_gdp <- reactive({
+
+          data_gdp_countries$gdp[data_gdp_countries$`Country Name` == compare_country() &
+                                                data_gdp_countries$Year == compare_country_year()]
+
+        })
+
 
 
 
@@ -143,7 +150,8 @@ mod_country_level_growth_extrapolate_server <- function(id){
         plt_title = "Actual GDP trend and the Extrapolated GDP trend",
         flname = "actual_vs_extrapolated_gdp",
         labx = "Actual GDP trend",
-        laby = "Extrapolated GDP trend"
+        laby = "Extrapolated GDP trend",
+        ref_val_gdp = reference_gdp()
       )
     })
 

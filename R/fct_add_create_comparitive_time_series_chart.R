@@ -69,9 +69,9 @@ add_create_comparitive_time_series_chart  <- function(data_fetch,
                               value = ref_val_gdp
                             )
                           ),
-                          max = ifelse(is.null(ref_val_gdppc),NA,
-                                       ifelse(ref_val_gdppc > 7*(10^14),
-                                              ref_val_gdppc,7*(10^14)))
+                          max = ifelse(is.null(ref_val_gdp),NA,
+                                       ifelse(ref_val_gdp > max(data_fetch[[yval]], na.rm = T),
+                                              ref_val_gdp,max(data_fetch[[yval]], na.rm = T)))
                           ) %>%
       highcharter::hc_tooltip(
         shared = T,
@@ -117,8 +117,8 @@ add_create_comparitive_time_series_chart  <- function(data_fetch,
                             )
                           ),
                           max = ifelse(is.null(ref_val_gdppc),NA,
-                                       ifelse(ref_val_gdppc > 50000,
-                                              ref_val_gdppc,50000))
+                                       ifelse(ref_val_gdppc > max(data_fetch[[yval]], na.rm = T),
+                                              ref_val_gdppc,max(data_fetch[[yval]], na.rm = T)))
                           ) %>%
       highcharter::hc_tooltip(
         shared = T,
