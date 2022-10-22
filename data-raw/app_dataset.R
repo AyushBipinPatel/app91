@@ -71,7 +71,7 @@ rbind(
     gdp_current_usd = NA,
     gdp_per_capita_current_usd = NA
   )
-) -> data_gdp_future # India National level data with years till 2050 for future time series charts. Has GDP and GDp per capita
+) -> data_gdp_future # India National level data with years till 2050 for future time series charts. Has GDP and GDP per capita
 
 
 # write to sysdata --------------------------------------------------------
