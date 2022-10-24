@@ -35,11 +35,12 @@ app_ui <- function(request) {
       shiny::navbarMenu(
         "India's state level Growth Trends",
         shiny::tabPanel(
-          "Brief on trends of all states",
-        ),
-        shiny::tabPanel(
           "State level trends" ,# UI module for state growth trends
           mod_state_trends_ui("state_trends_1")
+        ),
+        shiny::tabPanel(
+          "State level forward looking trends", # module UI for the forward looking State trends
+          mod_state_trends_growth_extrapolate_ui("state_trends_growth_extrapolate_1")
         )
       )
       )
