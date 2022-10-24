@@ -33,8 +33,8 @@ usethis::use_pipe(export = FALSE)
 ## Create a module infrastructure in R/
 golem::add_module(name = "country_level_growth", with_test = FALSE) # Module to create GDP and GDP per capita time series charts for India national level, backward looking
 golem::add_module(name = "country_level_growth_extrapolate", with_test = FALSE) # Module to create a time series chart for India National GDP and GDP per capita, forward looking
-golem::add_module(name = "state_trends", with_test = FALSE) # Module to create time series charts for Indian states (gdp and gdppc), both backward and forward looking.
-golem::add_module(name = "name_of_module2", with_test = FALSE) # Name of the module
+golem::add_module(name = "state_trends", with_test = FALSE) # Module to create time series charts for Indian states (gdp and gdppc), backward looking.
+golem::add_module(name = "state_trends_growth_extrapolate", with_test = FALSE) # Module to create time series charts for Indian states (gdp and gdppc), forward looking.
 
 ## Add helper functions ----
 ## Creates fct_* and utils_*
