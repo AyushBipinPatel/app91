@@ -1,0 +1,1873 @@
+Rowid,Country,State lgd code,State,Year,Gender,Projected population
+1,India,1,Jammu And Kashmir,2011,Female,5821
+2,India,1,Jammu And Kashmir,2011,Male,6519
+3,India,1,Jammu And Kashmir,2012,Female,5886
+4,India,1,Jammu And Kashmir,2012,Male,6580
+5,India,1,Jammu And Kashmir,2013,Female,5951
+6,India,1,Jammu And Kashmir,2013,Male,6641
+7,India,1,Jammu And Kashmir,2014,Female,6016
+8,India,1,Jammu And Kashmir,2014,Male,6702
+9,India,1,Jammu And Kashmir,2015,Female,6081
+10,India,1,Jammu And Kashmir,2015,Male,6763
+11,India,1,Jammu And Kashmir,2016,Female,6140
+12,India,1,Jammu And Kashmir,2016,Male,6817
+13,India,1,Jammu And Kashmir,2017,Female,6193
+14,India,1,Jammu And Kashmir,2017,Male,6865
+15,India,1,Jammu And Kashmir,2018,Female,6247
+16,India,1,Jammu And Kashmir,2018,Male,6913
+17,India,1,Jammu And Kashmir,2019,Female,6301
+18,India,1,Jammu And Kashmir,2019,Male,6961
+19,India,1,Jammu And Kashmir,2020,Female,6355
+20,India,1,Jammu And Kashmir,2020,Male,7010
+21,India,1,Jammu And Kashmir,2021,Female,6408
+22,India,1,Jammu And Kashmir,2021,Male,7056
+23,India,1,Jammu And Kashmir,2022,Female,6461
+24,India,1,Jammu And Kashmir,2022,Male,7102
+25,India,1,Jammu And Kashmir,2023,Female,6513
+26,India,1,Jammu And Kashmir,2023,Male,7147
+27,India,1,Jammu And Kashmir,2024,Female,6565
+28,India,1,Jammu And Kashmir,2024,Male,7192
+29,India,1,Jammu And Kashmir,2025,Female,6618
+30,India,1,Jammu And Kashmir,2025,Male,7238
+31,India,1,Jammu And Kashmir,2026,Female,6669
+32,India,1,Jammu And Kashmir,2026,Male,7281
+33,India,1,Jammu And Kashmir,2027,Female,6720
+34,India,1,Jammu And Kashmir,2027,Male,7323
+35,India,1,Jammu And Kashmir,2028,Female,6771
+36,India,1,Jammu And Kashmir,2028,Male,7365
+37,India,1,Jammu And Kashmir,2029,Female,6822
+38,India,1,Jammu And Kashmir,2029,Male,7407
+39,India,1,Jammu And Kashmir,2030,Female,6873
+40,India,1,Jammu And Kashmir,2030,Male,7449
+41,India,1,Jammu And Kashmir,2031,Female,6919
+42,India,1,Jammu And Kashmir,2031,Male,7487
+43,India,1,Jammu And Kashmir,2032,Female,6963
+44,India,1,Jammu And Kashmir,2032,Male,7520
+45,India,1,Jammu And Kashmir,2033,Female,7007
+46,India,1,Jammu And Kashmir,2033,Male,7554
+47,India,1,Jammu And Kashmir,2034,Female,7051
+48,India,1,Jammu And Kashmir,2034,Male,7587
+49,India,1,Jammu And Kashmir,2035,Female,7094
+50,India,1,Jammu And Kashmir,2035,Male,7621
+51,India,1,Jammu And Kashmir,2036,Female,7138
+52,India,1,Jammu And Kashmir,2036,Male,7654
+53,India,2,Himachal Pradesh,2011,Female,3400
+54,India,2,Himachal Pradesh,2011,Male,3499
+55,India,2,Himachal Pradesh,2012,Female,3429
+56,India,2,Himachal Pradesh,2012,Male,3529
+57,India,2,Himachal Pradesh,2013,Female,3458
+58,India,2,Himachal Pradesh,2013,Male,3559
+59,India,2,Himachal Pradesh,2014,Female,3487
+60,India,2,Himachal Pradesh,2014,Male,3588
+61,India,2,Himachal Pradesh,2015,Female,3516
+62,India,2,Himachal Pradesh,2015,Male,3618
+63,India,2,Himachal Pradesh,2016,Female,3541
+64,India,2,Himachal Pradesh,2016,Male,3644
+65,India,2,Himachal Pradesh,2017,Female,3565
+66,India,2,Himachal Pradesh,2017,Male,3668
+67,India,2,Himachal Pradesh,2018,Female,3588
+68,India,2,Himachal Pradesh,2018,Male,3692
+69,India,2,Himachal Pradesh,2019,Female,3611
+70,India,2,Himachal Pradesh,2019,Male,3716
+71,India,2,Himachal Pradesh,2020,Female,3634
+72,India,2,Himachal Pradesh,2020,Male,3740
+73,India,2,Himachal Pradesh,2021,Female,3655
+74,India,2,Himachal Pradesh,2021,Male,3760
+75,India,2,Himachal Pradesh,2022,Female,3673
+76,India,2,Himachal Pradesh,2022,Male,3779
+77,India,2,Himachal Pradesh,2023,Female,3692
+78,India,2,Himachal Pradesh,2023,Male,3798
+79,India,2,Himachal Pradesh,2024,Female,3711
+80,India,2,Himachal Pradesh,2024,Male,3816
+81,India,2,Himachal Pradesh,2025,Female,3729
+82,India,2,Himachal Pradesh,2025,Male,3835
+83,India,2,Himachal Pradesh,2026,Female,3745
+84,India,2,Himachal Pradesh,2026,Male,3850
+85,India,2,Himachal Pradesh,2027,Female,3758
+86,India,2,Himachal Pradesh,2027,Male,3863
+87,India,2,Himachal Pradesh,2028,Female,3771
+88,India,2,Himachal Pradesh,2028,Male,3877
+89,India,2,Himachal Pradesh,2029,Female,3785
+90,India,2,Himachal Pradesh,2029,Male,3890
+91,India,2,Himachal Pradesh,2030,Female,3798
+92,India,2,Himachal Pradesh,2030,Male,3903
+93,India,2,Himachal Pradesh,2031,Female,3808
+94,India,2,Himachal Pradesh,2031,Male,3913
+95,India,2,Himachal Pradesh,2032,Female,3815
+96,India,2,Himachal Pradesh,2032,Male,3920
+97,India,2,Himachal Pradesh,2033,Female,3822
+98,India,2,Himachal Pradesh,2033,Male,3927
+99,India,2,Himachal Pradesh,2034,Female,3829
+100,India,2,Himachal Pradesh,2034,Male,3935
+101,India,2,Himachal Pradesh,2035,Female,3837
+102,India,2,Himachal Pradesh,2035,Male,3942
+103,India,2,Himachal Pradesh,2036,Female,3844
+104,India,2,Himachal Pradesh,2036,Male,3950
+105,India,3,Punjab,2011,Female,13184
+106,India,3,Punjab,2011,Male,14722
+107,India,3,Punjab,2012,Female,13322
+108,India,3,Punjab,2012,Male,14864
+109,India,3,Punjab,2013,Female,13460
+110,India,3,Punjab,2013,Male,15005
+111,India,3,Punjab,2014,Female,13597
+112,India,3,Punjab,2014,Male,15147
+113,India,3,Punjab,2015,Female,13735
+114,India,3,Punjab,2015,Male,15288
+115,India,3,Punjab,2016,Female,13863
+116,India,3,Punjab,2016,Male,15417
+117,India,3,Punjab,2017,Female,13983
+118,India,3,Punjab,2017,Male,15536
+119,India,3,Punjab,2018,Female,14104
+120,India,3,Punjab,2018,Male,15655
+121,India,3,Punjab,2019,Female,14224
+122,India,3,Punjab,2019,Male,15775
+123,India,3,Punjab,2020,Female,14345
+124,India,3,Punjab,2020,Male,15894
+125,India,3,Punjab,2021,Female,14454
+126,India,3,Punjab,2021,Male,15999
+127,India,3,Punjab,2022,Female,14554
+128,India,3,Punjab,2022,Male,16095
+129,India,3,Punjab,2023,Female,14654
+130,India,3,Punjab,2023,Male,16191
+131,India,3,Punjab,2024,Female,14754
+132,India,3,Punjab,2024,Male,16287
+133,India,3,Punjab,2025,Female,14854
+134,India,3,Punjab,2025,Male,16383
+135,India,3,Punjab,2026,Female,14942
+136,India,3,Punjab,2026,Male,16466
+137,India,3,Punjab,2027,Female,15022
+138,India,3,Punjab,2027,Male,16540
+139,India,3,Punjab,2028,Female,15102
+140,India,3,Punjab,2028,Male,16614
+141,India,3,Punjab,2029,Female,15182
+142,India,3,Punjab,2029,Male,16688
+143,India,3,Punjab,2030,Female,15261
+144,India,3,Punjab,2030,Male,16761
+145,India,3,Punjab,2031,Female,15331
+146,India,3,Punjab,2031,Male,16823
+147,India,3,Punjab,2032,Female,15392
+148,India,3,Punjab,2032,Male,16875
+149,India,3,Punjab,2033,Female,15454
+150,India,3,Punjab,2033,Male,16928
+151,India,3,Punjab,2034,Female,15516
+152,India,3,Punjab,2034,Male,16981
+153,India,3,Punjab,2035,Female,15577
+154,India,3,Punjab,2035,Male,17033
+155,India,3,Punjab,2036,Female,15639
+156,India,3,Punjab,2036,Male,17086
+157,India,4,Chandigarh,2011,Female,480
+158,India,4,Chandigarh,2011,Male,585
+159,India,4,Chandigarh,2012,Female,488
+160,India,4,Chandigarh,2012,Male,593
+161,India,4,Chandigarh,2013,Female,496
+162,India,4,Chandigarh,2013,Male,601
+163,India,4,Chandigarh,2014,Female,505
+164,India,4,Chandigarh,2014,Male,609
+165,India,4,Chandigarh,2015,Female,513
+166,India,4,Chandigarh,2015,Male,617
+167,India,4,Chandigarh,2016,Female,521
+168,India,4,Chandigarh,2016,Male,624
+169,India,4,Chandigarh,2017,Female,528
+170,India,4,Chandigarh,2017,Male,631
+171,India,4,Chandigarh,2018,Female,536
+172,India,4,Chandigarh,2018,Male,637
+173,India,4,Chandigarh,2019,Female,543
+174,India,4,Chandigarh,2019,Male,644
+175,India,4,Chandigarh,2020,Female,551
+176,India,4,Chandigarh,2020,Male,651
+177,India,4,Chandigarh,2021,Female,558
+178,India,4,Chandigarh,2021,Male,657
+179,India,4,Chandigarh,2022,Female,564
+180,India,4,Chandigarh,2022,Male,662
+181,India,4,Chandigarh,2023,Female,571
+182,India,4,Chandigarh,2023,Male,668
+183,India,4,Chandigarh,2024,Female,577
+184,India,4,Chandigarh,2024,Male,673
+185,India,4,Chandigarh,2025,Female,583
+186,India,4,Chandigarh,2025,Male,679
+187,India,4,Chandigarh,2026,Female,589
+188,India,4,Chandigarh,2026,Male,684
+189,India,4,Chandigarh,2027,Female,595
+190,India,4,Chandigarh,2027,Male,688
+191,India,4,Chandigarh,2028,Female,601
+192,India,4,Chandigarh,2028,Male,693
+193,India,4,Chandigarh,2029,Female,606
+194,India,4,Chandigarh,2029,Male,697
+195,India,4,Chandigarh,2030,Female,612
+196,India,4,Chandigarh,2030,Male,702
+197,India,4,Chandigarh,2031,Female,617
+198,India,4,Chandigarh,2031,Male,706
+199,India,4,Chandigarh,2032,Female,622
+200,India,4,Chandigarh,2032,Male,710
+201,India,4,Chandigarh,2033,Female,626
+202,India,4,Chandigarh,2033,Male,713
+203,India,4,Chandigarh,2034,Female,631
+204,India,4,Chandigarh,2034,Male,717
+205,India,4,Chandigarh,2035,Female,636
+206,India,4,Chandigarh,2035,Male,720
+207,India,4,Chandigarh,2036,Female,641
+208,India,4,Chandigarh,2036,Male,724
+209,India,5,Uttarakhand,2011,Female,4985
+210,India,5,Uttarakhand,2011,Male,5180
+211,India,5,Uttarakhand,2012,Female,5047
+212,India,5,Uttarakhand,2012,Male,5251
+213,India,5,Uttarakhand,2013,Female,5109
+214,India,5,Uttarakhand,2013,Male,5323
+215,India,5,Uttarakhand,2014,Female,5171
+216,India,5,Uttarakhand,2014,Male,5395
+217,India,5,Uttarakhand,2015,Female,5233
+218,India,5,Uttarakhand,2015,Male,5466
+219,India,5,Uttarakhand,2016,Female,5294
+220,India,5,Uttarakhand,2016,Male,5536
+221,India,5,Uttarakhand,2017,Female,5354
+222,India,5,Uttarakhand,2017,Male,5605
+223,India,5,Uttarakhand,2018,Female,5414
+224,India,5,Uttarakhand,2018,Male,5674
+225,India,5,Uttarakhand,2019,Female,5474
+226,India,5,Uttarakhand,2019,Male,5742
+227,India,5,Uttarakhand,2020,Female,5535
+228,India,5,Uttarakhand,2020,Male,5811
+229,India,5,Uttarakhand,2021,Female,5592
+230,India,5,Uttarakhand,2021,Male,5876
+231,India,5,Uttarakhand,2022,Female,5649
+232,India,5,Uttarakhand,2022,Male,5938
+233,India,5,Uttarakhand,2023,Female,5705
+234,India,5,Uttarakhand,2023,Male,6001
+235,India,5,Uttarakhand,2024,Female,5761
+236,India,5,Uttarakhand,2024,Male,6063
+237,India,5,Uttarakhand,2025,Female,5817
+238,India,5,Uttarakhand,2025,Male,6126
+239,India,5,Uttarakhand,2026,Female,5870
+240,India,5,Uttarakhand,2026,Male,6184
+241,India,5,Uttarakhand,2027,Female,5921
+242,India,5,Uttarakhand,2027,Male,6240
+243,India,5,Uttarakhand,2028,Female,5972
+244,India,5,Uttarakhand,2028,Male,6295
+245,India,5,Uttarakhand,2029,Female,6023
+246,India,5,Uttarakhand,2029,Male,6350
+247,India,5,Uttarakhand,2030,Female,6075
+248,India,5,Uttarakhand,2030,Male,6406
+249,India,5,Uttarakhand,2031,Female,6121
+250,India,5,Uttarakhand,2031,Male,6456
+251,India,5,Uttarakhand,2032,Female,6163
+252,India,5,Uttarakhand,2032,Male,6504
+253,India,5,Uttarakhand,2033,Female,6206
+254,India,5,Uttarakhand,2033,Male,6551
+255,India,5,Uttarakhand,2034,Female,6249
+256,India,5,Uttarakhand,2034,Male,6598
+257,India,5,Uttarakhand,2035,Female,6291
+258,India,5,Uttarakhand,2035,Male,6646
+259,India,5,Uttarakhand,2036,Female,6334
+260,India,5,Uttarakhand,2036,Male,6693
+261,India,6,Haryana,2011,Female,11975
+262,India,6,Haryana,2011,Male,13622
+263,India,6,Haryana,2012,Female,12178
+264,India,6,Haryana,2012,Male,13840
+265,India,6,Haryana,2013,Female,12380
+266,India,6,Haryana,2013,Male,14058
+267,India,6,Haryana,2014,Female,12583
+268,India,6,Haryana,2014,Male,14276
+269,India,6,Haryana,2015,Female,12786
+270,India,6,Haryana,2015,Male,14494
+271,India,6,Haryana,2016,Female,12986
+272,India,6,Haryana,2016,Male,14706
+273,India,6,Haryana,2017,Female,13184
+274,India,6,Haryana,2017,Male,14914
+275,India,6,Haryana,2018,Female,13382
+276,India,6,Haryana,2018,Male,15121
+277,India,6,Haryana,2019,Female,13580
+278,India,6,Haryana,2019,Male,15329
+279,India,6,Haryana,2020,Female,13778
+280,India,6,Haryana,2020,Male,15536
+281,India,6,Haryana,2021,Female,13966
+282,India,6,Haryana,2021,Male,15728
+283,India,6,Haryana,2022,Female,14148
+284,India,6,Haryana,2022,Male,15910
+285,India,6,Haryana,2023,Female,14330
+286,India,6,Haryana,2023,Male,16091
+287,India,6,Haryana,2024,Female,14512
+288,India,6,Haryana,2024,Male,16273
+289,India,6,Haryana,2025,Female,14694
+290,India,6,Haryana,2025,Male,16454
+291,India,6,Haryana,2026,Female,14869
+292,India,6,Haryana,2026,Male,16623
+293,India,6,Haryana,2027,Female,15038
+294,India,6,Haryana,2027,Male,16783
+295,India,6,Haryana,2028,Female,15207
+296,India,6,Haryana,2028,Male,16943
+297,India,6,Haryana,2029,Female,15376
+298,India,6,Haryana,2029,Male,17103
+299,India,6,Haryana,2030,Female,15546
+300,India,6,Haryana,2030,Male,17263
+301,India,6,Haryana,2031,Female,15708
+302,India,6,Haryana,2031,Male,17415
+303,India,6,Haryana,2032,Female,15867
+304,India,6,Haryana,2032,Male,17561
+305,India,6,Haryana,2033,Female,16025
+306,India,6,Haryana,2033,Male,17708
+307,India,6,Haryana,2034,Female,16183
+308,India,6,Haryana,2034,Male,17854
+309,India,6,Haryana,2035,Female,16342
+310,India,6,Haryana,2035,Male,18000
+311,India,6,Haryana,2036,Female,16500
+312,India,6,Haryana,2036,Male,18147
+313,India,7,Delhi,2011,Female,7905
+314,India,7,Delhi,2011,Male,9103
+315,India,7,Delhi,2012,Female,8084
+316,India,7,Delhi,2012,Male,9302
+317,India,7,Delhi,2013,Female,8264
+318,India,7,Delhi,2013,Male,9500
+319,India,7,Delhi,2014,Female,8443
+320,India,7,Delhi,2014,Male,9699
+321,India,7,Delhi,2015,Female,8622
+322,India,7,Delhi,2015,Male,9898
+323,India,7,Delhi,2016,Female,8803
+324,India,7,Delhi,2016,Male,10095
+325,India,7,Delhi,2017,Female,8985
+326,India,7,Delhi,2017,Male,10292
+327,India,7,Delhi,2018,Female,9168
+328,India,7,Delhi,2018,Male,10488
+329,India,7,Delhi,2019,Female,9350
+330,India,7,Delhi,2019,Male,10684
+331,India,7,Delhi,2020,Female,9533
+332,India,7,Delhi,2020,Male,10881
+333,India,7,Delhi,2021,Female,9721
+334,India,7,Delhi,2021,Male,11080
+335,India,7,Delhi,2022,Female,9913
+336,India,7,Delhi,2022,Male,11282
+337,India,7,Delhi,2023,Female,10105
+338,India,7,Delhi,2023,Male,11483
+339,India,7,Delhi,2024,Female,10298
+340,India,7,Delhi,2024,Male,11684
+341,India,7,Delhi,2025,Female,10490
+342,India,7,Delhi,2025,Male,11886
+343,India,7,Delhi,2026,Female,10687
+344,India,7,Delhi,2026,Male,12088
+345,India,7,Delhi,2027,Female,10887
+346,India,7,Delhi,2027,Male,12291
+347,India,7,Delhi,2028,Female,11086
+348,India,7,Delhi,2028,Male,12493
+349,India,7,Delhi,2029,Female,11286
+350,India,7,Delhi,2029,Male,12696
+351,India,7,Delhi,2030,Female,11486
+352,India,7,Delhi,2030,Male,12899
+353,India,7,Delhi,2031,Female,11688
+354,India,7,Delhi,2031,Male,13102
+355,India,7,Delhi,2032,Female,11892
+356,India,7,Delhi,2032,Male,13306
+357,India,7,Delhi,2033,Female,12096
+358,India,7,Delhi,2033,Male,13510
+359,India,7,Delhi,2034,Female,12300
+360,India,7,Delhi,2034,Male,13713
+361,India,7,Delhi,2035,Female,12504
+362,India,7,Delhi,2035,Male,13917
+363,India,7,Delhi,2036,Female,12708
+364,India,7,Delhi,2036,Male,14121
+365,India,8,Rajasthan,2011,Female,33335
+366,India,8,Rajasthan,2011,Male,35878
+367,India,8,Rajasthan,2012,Female,33913
+368,India,8,Rajasthan,2012,Male,36437
+369,India,8,Rajasthan,2013,Female,34492
+370,India,8,Rajasthan,2013,Male,36997
+371,India,8,Rajasthan,2014,Female,35071
+372,India,8,Rajasthan,2014,Male,37557
+373,India,8,Rajasthan,2015,Female,35649
+374,India,8,Rajasthan,2015,Male,38116
+375,India,8,Rajasthan,2016,Female,36196
+376,India,8,Rajasthan,2016,Male,38632
+377,India,8,Rajasthan,2017,Female,36720
+378,India,8,Rajasthan,2017,Male,39117
+379,India,8,Rajasthan,2018,Female,37243
+380,India,8,Rajasthan,2018,Male,39601
+381,India,8,Rajasthan,2019,Female,37767
+382,India,8,Rajasthan,2019,Male,40085
+383,India,8,Rajasthan,2020,Female,38291
+384,India,8,Rajasthan,2020,Male,40570
+385,India,8,Rajasthan,2021,Female,38781
+386,India,8,Rajasthan,2021,Male,41009
+387,India,8,Rajasthan,2022,Female,39247
+388,India,8,Rajasthan,2022,Male,41415
+389,India,8,Rajasthan,2023,Female,39713
+390,India,8,Rajasthan,2023,Male,41821
+391,India,8,Rajasthan,2024,Female,40179
+392,India,8,Rajasthan,2024,Male,42227
+393,India,8,Rajasthan,2025,Female,40645
+394,India,8,Rajasthan,2025,Male,42633
+395,India,8,Rajasthan,2026,Female,41071
+396,India,8,Rajasthan,2026,Male,42985
+397,India,8,Rajasthan,2027,Female,41469
+398,India,8,Rajasthan,2027,Male,43299
+399,India,8,Rajasthan,2028,Female,41867
+400,India,8,Rajasthan,2028,Male,43612
+401,India,8,Rajasthan,2029,Female,42265
+402,India,8,Rajasthan,2029,Male,43925
+403,India,8,Rajasthan,2030,Female,42663
+404,India,8,Rajasthan,2030,Male,44238
+405,India,8,Rajasthan,2031,Female,43026
+406,India,8,Rajasthan,2031,Male,44565
+407,India,8,Rajasthan,2032,Female,43363
+408,India,8,Rajasthan,2032,Male,44901
+409,India,8,Rajasthan,2033,Female,43700
+410,India,8,Rajasthan,2033,Male,45236
+411,India,8,Rajasthan,2034,Female,44037
+412,India,8,Rajasthan,2034,Male,45572
+413,India,8,Rajasthan,2035,Female,44374
+414,India,8,Rajasthan,2035,Male,45908
+415,India,8,Rajasthan,2036,Female,44711
+416,India,8,Rajasthan,2036,Male,46244
+417,India,9,Uttar Pradesh,2011,Female,96259
+418,India,9,Uttar Pradesh,2011,Male,105452
+419,India,9,Uttar Pradesh,2012,Female,97848
+420,India,9,Uttar Pradesh,2012,Male,107118
+421,India,9,Uttar Pradesh,2013,Female,99437
+422,India,9,Uttar Pradesh,2013,Male,108783
+423,India,9,Uttar Pradesh,2014,Female,101026
+424,India,9,Uttar Pradesh,2014,Male,110449
+425,India,9,Uttar Pradesh,2015,Female,102616
+426,India,9,Uttar Pradesh,2015,Male,112115
+427,India,9,Uttar Pradesh,2016,Female,104128
+428,India,9,Uttar Pradesh,2016,Male,113688
+429,India,9,Uttar Pradesh,2017,Female,105585
+430,India,9,Uttar Pradesh,2017,Male,115195
+431,India,9,Uttar Pradesh,2018,Female,107042
+432,India,9,Uttar Pradesh,2018,Male,116702
+433,India,9,Uttar Pradesh,2019,Female,108499
+434,India,9,Uttar Pradesh,2019,Male,118209
+435,India,9,Uttar Pradesh,2020,Female,109956
+436,India,9,Uttar Pradesh,2020,Male,119716
+437,India,9,Uttar Pradesh,2021,Female,111259
+438,India,9,Uttar Pradesh,2021,Male,121042
+439,India,9,Uttar Pradesh,2022,Female,112453
+440,India,9,Uttar Pradesh,2022,Male,122238
+441,India,9,Uttar Pradesh,2023,Female,113647
+442,India,9,Uttar Pradesh,2023,Male,123435
+443,India,9,Uttar Pradesh,2024,Female,114841
+444,India,9,Uttar Pradesh,2024,Male,124632
+445,India,9,Uttar Pradesh,2025,Female,116034
+446,India,9,Uttar Pradesh,2025,Male,125828
+447,India,9,Uttar Pradesh,2026,Female,117075
+448,India,9,Uttar Pradesh,2026,Male,126846
+449,India,9,Uttar Pradesh,2027,Female,118007
+450,India,9,Uttar Pradesh,2027,Male,127735
+451,India,9,Uttar Pradesh,2028,Female,118938
+452,India,9,Uttar Pradesh,2028,Male,128624
+453,India,9,Uttar Pradesh,2029,Female,119870
+454,India,9,Uttar Pradesh,2029,Male,129514
+455,India,9,Uttar Pradesh,2030,Female,120801
+456,India,9,Uttar Pradesh,2030,Male,130403
+457,India,9,Uttar Pradesh,2031,Female,121620
+458,India,9,Uttar Pradesh,2031,Male,131163
+459,India,9,Uttar Pradesh,2032,Female,122357
+460,India,9,Uttar Pradesh,2032,Male,131831
+461,India,9,Uttar Pradesh,2033,Female,123095
+462,India,9,Uttar Pradesh,2033,Male,132499
+463,India,9,Uttar Pradesh,2034,Female,123832
+464,India,9,Uttar Pradesh,2034,Male,133167
+465,India,9,Uttar Pradesh,2035,Female,124570
+466,India,9,Uttar Pradesh,2035,Male,133835
+467,India,9,Uttar Pradesh,2036,Female,125307
+468,India,9,Uttar Pradesh,2036,Male,134503
+469,India,10,Bihar,2011,Female,50391
+470,India,10,Bihar,2011,Male,54884
+471,India,10,Bihar,2012,Female,51367
+472,India,10,Bihar,2012,Male,55923
+473,India,10,Bihar,2013,Female,52344
+474,India,10,Bihar,2013,Male,56962
+475,India,10,Bihar,2014,Female,53320
+476,India,10,Bihar,2014,Male,58001
+477,India,10,Bihar,2015,Female,54296
+478,India,10,Bihar,2015,Male,59040
+479,India,10,Bihar,2016,Female,55213
+480,India,10,Bihar,2016,Male,60002
+481,India,10,Bihar,2017,Female,56086
+482,India,10,Bihar,2017,Male,60910
+483,India,10,Bihar,2018,Female,56960
+484,India,10,Bihar,2018,Male,61818
+485,India,10,Bihar,2019,Female,57833
+486,India,10,Bihar,2019,Male,62726
+487,India,10,Bihar,2020,Female,58707
+488,India,10,Bihar,2020,Male,63634
+489,India,10,Bihar,2021,Female,59602
+490,India,10,Bihar,2021,Male,64552
+491,India,10,Bihar,2022,Female,60512
+492,India,10,Bihar,2022,Male,65479
+493,India,10,Bihar,2023,Female,61421
+494,India,10,Bihar,2023,Male,66406
+495,India,10,Bihar,2024,Female,62331
+496,India,10,Bihar,2024,Male,67332
+497,India,10,Bihar,2025,Female,63241
+498,India,10,Bihar,2025,Male,68259
+499,India,10,Bihar,2026,Female,64131
+500,India,10,Bihar,2026,Male,69158
+501,India,10,Bihar,2027,Female,65006
+502,India,10,Bihar,2027,Male,70038
+503,India,10,Bihar,2028,Female,65881
+504,India,10,Bihar,2028,Male,70918
+505,India,10,Bihar,2029,Female,66756
+506,India,10,Bihar,2029,Male,71798
+507,India,10,Bihar,2030,Female,67631
+508,India,10,Bihar,2030,Male,72678
+509,India,10,Bihar,2031,Female,68437
+510,India,10,Bihar,2031,Male,73483
+511,India,10,Bihar,2032,Female,69194
+512,India,10,Bihar,2032,Male,74233
+513,India,10,Bihar,2033,Female,69951
+514,India,10,Bihar,2033,Male,74983
+515,India,10,Bihar,2034,Female,70707
+516,India,10,Bihar,2034,Male,75734
+517,India,10,Bihar,2035,Female,71464
+518,India,10,Bihar,2035,Male,76484
+519,India,10,Bihar,2036,Female,72221
+520,India,10,Bihar,2036,Male,77234
+521,India,11,Sikkim,2011,Female,289
+522,India,11,Sikkim,2011,Male,325
+523,India,11,Sikkim,2012,Female,292
+524,India,11,Sikkim,2012,Male,328
+525,India,11,Sikkim,2013,Female,296
+526,India,11,Sikkim,2013,Male,332
+527,India,11,Sikkim,2014,Female,299
+528,India,11,Sikkim,2014,Male,335
+529,India,11,Sikkim,2015,Female,302
+530,India,11,Sikkim,2015,Male,339
+531,India,11,Sikkim,2016,Female,305
+532,India,11,Sikkim,2016,Male,342
+533,India,11,Sikkim,2017,Female,308
+534,India,11,Sikkim,2017,Male,345
+535,India,11,Sikkim,2018,Female,312
+536,India,11,Sikkim,2018,Male,349
+537,India,11,Sikkim,2019,Female,315
+538,India,11,Sikkim,2019,Male,352
+539,India,11,Sikkim,2020,Female,318
+540,India,11,Sikkim,2020,Male,355
+541,India,11,Sikkim,2021,Female,321
+542,India,11,Sikkim,2021,Male,359
+543,India,11,Sikkim,2022,Female,324
+544,India,11,Sikkim,2022,Male,362
+545,India,11,Sikkim,2023,Female,327
+546,India,11,Sikkim,2023,Male,365
+547,India,11,Sikkim,2024,Female,330
+548,India,11,Sikkim,2024,Male,368
+549,India,11,Sikkim,2025,Female,334
+550,India,11,Sikkim,2025,Male,371
+551,India,11,Sikkim,2026,Female,336
+552,India,11,Sikkim,2026,Male,374
+553,India,11,Sikkim,2027,Female,339
+554,India,11,Sikkim,2027,Male,377
+555,India,11,Sikkim,2028,Female,342
+556,India,11,Sikkim,2028,Male,380
+557,India,11,Sikkim,2029,Female,345
+558,India,11,Sikkim,2029,Male,383
+559,India,11,Sikkim,2030,Female,348
+560,India,11,Sikkim,2030,Male,385
+561,India,11,Sikkim,2031,Female,350
+562,India,11,Sikkim,2031,Male,388
+563,India,11,Sikkim,2032,Female,353
+564,India,11,Sikkim,2032,Male,390
+565,India,11,Sikkim,2033,Female,355
+566,India,11,Sikkim,2033,Male,392
+567,India,11,Sikkim,2034,Female,357
+568,India,11,Sikkim,2034,Male,394
+569,India,11,Sikkim,2035,Female,360
+570,India,11,Sikkim,2035,Male,396
+571,India,11,Sikkim,2036,Female,362
+572,India,11,Sikkim,2036,Male,399
+573,India,12,Arunachal Pradesh,2011,Female,674
+574,India,12,Arunachal Pradesh,2011,Male,718
+575,India,12,Arunachal Pradesh,2012,Female,681
+576,India,12,Arunachal Pradesh,2012,Male,725
+577,India,12,Arunachal Pradesh,2013,Female,689
+578,India,12,Arunachal Pradesh,2013,Male,733
+579,India,12,Arunachal Pradesh,2014,Female,696
+580,India,12,Arunachal Pradesh,2014,Male,740
+581,India,12,Arunachal Pradesh,2015,Female,704
+582,India,12,Arunachal Pradesh,2015,Male,748
+583,India,12,Arunachal Pradesh,2016,Female,711
+584,India,12,Arunachal Pradesh,2016,Male,756
+585,India,12,Arunachal Pradesh,2017,Female,718
+586,India,12,Arunachal Pradesh,2017,Male,763
+587,India,12,Arunachal Pradesh,2018,Female,726
+588,India,12,Arunachal Pradesh,2018,Male,770
+589,India,12,Arunachal Pradesh,2019,Female,733
+590,India,12,Arunachal Pradesh,2019,Male,778
+591,India,12,Arunachal Pradesh,2020,Female,741
+592,India,12,Arunachal Pradesh,2020,Male,785
+593,India,12,Arunachal Pradesh,2021,Female,748
+594,India,12,Arunachal Pradesh,2021,Male,792
+595,India,12,Arunachal Pradesh,2022,Female,755
+596,India,12,Arunachal Pradesh,2022,Male,799
+597,India,12,Arunachal Pradesh,2023,Female,763
+598,India,12,Arunachal Pradesh,2023,Male,806
+599,India,12,Arunachal Pradesh,2024,Female,770
+600,India,12,Arunachal Pradesh,2024,Male,813
+601,India,12,Arunachal Pradesh,2025,Female,777
+602,India,12,Arunachal Pradesh,2025,Male,820
+603,India,12,Arunachal Pradesh,2026,Female,784
+604,India,12,Arunachal Pradesh,2026,Male,827
+605,India,12,Arunachal Pradesh,2027,Female,791
+606,India,12,Arunachal Pradesh,2027,Male,833
+607,India,12,Arunachal Pradesh,2028,Female,797
+608,India,12,Arunachal Pradesh,2028,Male,839
+609,India,12,Arunachal Pradesh,2029,Female,804
+610,India,12,Arunachal Pradesh,2029,Male,845
+611,India,12,Arunachal Pradesh,2030,Female,810
+612,India,12,Arunachal Pradesh,2030,Male,852
+613,India,12,Arunachal Pradesh,2031,Female,816
+614,India,12,Arunachal Pradesh,2031,Male,857
+615,India,12,Arunachal Pradesh,2032,Female,822
+616,India,12,Arunachal Pradesh,2032,Male,862
+617,India,12,Arunachal Pradesh,2033,Female,827
+618,India,12,Arunachal Pradesh,2033,Male,867
+619,India,12,Arunachal Pradesh,2034,Female,833
+620,India,12,Arunachal Pradesh,2034,Male,871
+621,India,12,Arunachal Pradesh,2035,Female,838
+622,India,12,Arunachal Pradesh,2035,Male,876
+623,India,12,Arunachal Pradesh,2036,Female,843
+624,India,12,Arunachal Pradesh,2036,Male,881
+625,India,13,Nagaland,2011,Female,959
+626,India,13,Nagaland,2011,Male,1030
+627,India,13,Nagaland,2012,Female,970
+628,India,13,Nagaland,2012,Male,1041
+629,India,13,Nagaland,2013,Female,981
+630,India,13,Nagaland,2013,Male,1052
+631,India,13,Nagaland,2014,Female,991
+632,India,13,Nagaland,2014,Male,1063
+633,India,13,Nagaland,2015,Female,1002
+634,India,13,Nagaland,2015,Male,1074
+635,India,13,Nagaland,2016,Female,1013
+636,India,13,Nagaland,2016,Male,1084
+637,India,13,Nagaland,2017,Female,1023
+638,India,13,Nagaland,2017,Male,1095
+639,India,13,Nagaland,2018,Female,1034
+640,India,13,Nagaland,2018,Male,1106
+641,India,13,Nagaland,2019,Female,1044
+642,India,13,Nagaland,2019,Male,1116
+643,India,13,Nagaland,2020,Female,1055
+644,India,13,Nagaland,2020,Male,1127
+645,India,13,Nagaland,2021,Female,1065
+646,India,13,Nagaland,2021,Male,1137
+647,India,13,Nagaland,2022,Female,1076
+648,India,13,Nagaland,2022,Male,1147
+649,India,13,Nagaland,2023,Female,1086
+650,India,13,Nagaland,2023,Male,1157
+651,India,13,Nagaland,2024,Female,1096
+652,India,13,Nagaland,2024,Male,1167
+653,India,13,Nagaland,2025,Female,1107
+654,India,13,Nagaland,2025,Male,1177
+655,India,13,Nagaland,2026,Female,1116
+656,India,13,Nagaland,2026,Male,1187
+657,India,13,Nagaland,2027,Female,1126
+658,India,13,Nagaland,2027,Male,1196
+659,India,13,Nagaland,2028,Female,1135
+660,India,13,Nagaland,2028,Male,1204
+661,India,13,Nagaland,2029,Female,1145
+662,India,13,Nagaland,2029,Male,1213
+663,India,13,Nagaland,2030,Female,1154
+664,India,13,Nagaland,2030,Male,1222
+665,India,13,Nagaland,2031,Female,1163
+666,India,13,Nagaland,2031,Male,1230
+667,India,13,Nagaland,2032,Female,1170
+668,India,13,Nagaland,2032,Male,1237
+669,India,13,Nagaland,2033,Female,1178
+670,India,13,Nagaland,2033,Male,1244
+671,India,13,Nagaland,2034,Female,1186
+672,India,13,Nagaland,2034,Male,1251
+673,India,13,Nagaland,2035,Female,1193
+674,India,13,Nagaland,2035,Male,1257
+675,India,13,Nagaland,2036,Female,1201
+676,India,13,Nagaland,2036,Male,1264
+677,India,14,Manipur,2011,Female,1425
+678,India,14,Manipur,2011,Male,1446
+679,India,14,Manipur,2012,Female,1441
+680,India,14,Manipur,2012,Male,1462
+681,India,14,Manipur,2013,Female,1457
+682,India,14,Manipur,2013,Male,1477
+683,India,14,Manipur,2014,Female,1473
+684,India,14,Manipur,2014,Male,1492
+685,India,14,Manipur,2015,Female,1489
+686,India,14,Manipur,2015,Male,1507
+687,India,14,Manipur,2016,Female,1504
+688,India,14,Manipur,2016,Male,1523
+689,India,14,Manipur,2017,Female,1520
+690,India,14,Manipur,2017,Male,1537
+691,India,14,Manipur,2018,Female,1536
+692,India,14,Manipur,2018,Male,1552
+693,India,14,Manipur,2019,Female,1552
+694,India,14,Manipur,2019,Male,1567
+695,India,14,Manipur,2020,Female,1567
+696,India,14,Manipur,2020,Male,1582
+697,India,14,Manipur,2021,Female,1583
+698,India,14,Manipur,2021,Male,1596
+699,India,14,Manipur,2022,Female,1598
+700,India,14,Manipur,2022,Male,1611
+701,India,14,Manipur,2023,Female,1613
+702,India,14,Manipur,2023,Male,1625
+703,India,14,Manipur,2024,Female,1629
+704,India,14,Manipur,2024,Male,1639
+705,India,14,Manipur,2025,Female,1644
+706,India,14,Manipur,2025,Male,1653
+707,India,14,Manipur,2026,Female,1659
+708,India,14,Manipur,2026,Male,1666
+709,India,14,Manipur,2027,Female,1673
+710,India,14,Manipur,2027,Male,1679
+711,India,14,Manipur,2028,Female,1687
+712,India,14,Manipur,2028,Male,1691
+713,India,14,Manipur,2029,Female,1701
+714,India,14,Manipur,2029,Male,1704
+715,India,14,Manipur,2030,Female,1715
+716,India,14,Manipur,2030,Male,1716
+717,India,14,Manipur,2031,Female,1727
+718,India,14,Manipur,2031,Male,1727
+719,India,14,Manipur,2032,Female,1739
+720,India,14,Manipur,2032,Male,1737
+721,India,14,Manipur,2033,Female,1750
+722,India,14,Manipur,2033,Male,1746
+723,India,14,Manipur,2034,Female,1761
+724,India,14,Manipur,2034,Male,1756
+725,India,14,Manipur,2035,Female,1773
+726,India,14,Manipur,2035,Male,1765
+727,India,14,Manipur,2036,Female,1784
+728,India,14,Manipur,2036,Male,1775
+729,India,15,Mizoram,2011,Female,545
+730,India,15,Mizoram,2011,Male,558
+731,India,15,Mizoram,2012,Female,551
+732,India,15,Mizoram,2012,Male,564
+733,India,15,Mizoram,2013,Female,557
+734,India,15,Mizoram,2013,Male,570
+735,India,15,Mizoram,2014,Female,563
+736,India,15,Mizoram,2014,Male,576
+737,India,15,Mizoram,2015,Female,569
+738,India,15,Mizoram,2015,Male,582
+739,India,15,Mizoram,2016,Female,575
+740,India,15,Mizoram,2016,Male,588
+741,India,15,Mizoram,2017,Female,581
+742,India,15,Mizoram,2017,Male,593
+743,India,15,Mizoram,2018,Female,587
+744,India,15,Mizoram,2018,Male,599
+745,India,15,Mizoram,2019,Female,593
+746,India,15,Mizoram,2019,Male,605
+747,India,15,Mizoram,2020,Female,599
+748,India,15,Mizoram,2020,Male,611
+749,India,15,Mizoram,2021,Female,605
+750,India,15,Mizoram,2021,Male,616
+751,India,15,Mizoram,2022,Female,611
+752,India,15,Mizoram,2022,Male,622
+753,India,15,Mizoram,2023,Female,617
+754,India,15,Mizoram,2023,Male,627
+755,India,15,Mizoram,2024,Female,623
+756,India,15,Mizoram,2024,Male,633
+757,India,15,Mizoram,2025,Female,629
+758,India,15,Mizoram,2025,Male,638
+759,India,15,Mizoram,2026,Female,634
+760,India,15,Mizoram,2026,Male,643
+761,India,15,Mizoram,2027,Female,640
+762,India,15,Mizoram,2027,Male,648
+763,India,15,Mizoram,2028,Female,645
+764,India,15,Mizoram,2028,Male,653
+765,India,15,Mizoram,2029,Female,650
+766,India,15,Mizoram,2029,Male,658
+767,India,15,Mizoram,2030,Female,656
+768,India,15,Mizoram,2030,Male,662
+769,India,15,Mizoram,2031,Female,660
+770,India,15,Mizoram,2031,Male,667
+771,India,15,Mizoram,2032,Female,665
+772,India,15,Mizoram,2032,Male,670
+773,India,15,Mizoram,2033,Female,669
+774,India,15,Mizoram,2033,Male,674
+775,India,15,Mizoram,2034,Female,673
+776,India,15,Mizoram,2034,Male,678
+777,India,15,Mizoram,2035,Female,678
+778,India,15,Mizoram,2035,Male,681
+779,India,15,Mizoram,2036,Female,682
+780,India,15,Mizoram,2036,Male,685
+781,India,16,Tripura,2011,Female,1810
+782,India,16,Tripura,2011,Male,1884
+783,India,16,Tripura,2012,Female,1830
+784,India,16,Tripura,2012,Male,1904
+785,India,16,Tripura,2013,Female,1850
+786,India,16,Tripura,2013,Male,1924
+787,India,16,Tripura,2014,Female,1870
+788,India,16,Tripura,2014,Male,1944
+789,India,16,Tripura,2015,Female,1890
+790,India,16,Tripura,2015,Male,1964
+791,India,16,Tripura,2016,Female,1910
+792,India,16,Tripura,2016,Male,1984
+793,India,16,Tripura,2017,Female,1930
+794,India,16,Tripura,2017,Male,2003
+795,India,16,Tripura,2018,Female,1950
+796,India,16,Tripura,2018,Male,2022
+797,India,16,Tripura,2019,Female,1970
+798,India,16,Tripura,2019,Male,2042
+799,India,16,Tripura,2020,Female,1990
+800,India,16,Tripura,2020,Male,2061
+801,India,16,Tripura,2021,Female,2010
+802,India,16,Tripura,2021,Male,2080
+803,India,16,Tripura,2022,Female,2029
+804,India,16,Tripura,2022,Male,2098
+805,India,16,Tripura,2023,Female,2049
+806,India,16,Tripura,2023,Male,2117
+807,India,16,Tripura,2024,Female,2068
+808,India,16,Tripura,2024,Male,2135
+809,India,16,Tripura,2025,Female,2088
+810,India,16,Tripura,2025,Male,2153
+811,India,16,Tripura,2026,Female,2106
+812,India,16,Tripura,2026,Male,2171
+813,India,16,Tripura,2027,Female,2124
+814,India,16,Tripura,2027,Male,2187
+815,India,16,Tripura,2028,Female,2142
+816,India,16,Tripura,2028,Male,2203
+817,India,16,Tripura,2029,Female,2159
+818,India,16,Tripura,2029,Male,2220
+819,India,16,Tripura,2030,Female,2177
+820,India,16,Tripura,2030,Male,2236
+821,India,16,Tripura,2031,Female,2193
+822,India,16,Tripura,2031,Male,2250
+823,India,16,Tripura,2032,Female,2208
+824,India,16,Tripura,2032,Male,2263
+825,India,16,Tripura,2033,Female,2222
+826,India,16,Tripura,2033,Male,2275
+827,India,16,Tripura,2034,Female,2237
+828,India,16,Tripura,2034,Male,2288
+829,India,16,Tripura,2035,Female,2251
+830,India,16,Tripura,2035,Male,2300
+831,India,16,Tripura,2036,Female,2266
+832,India,16,Tripura,2036,Male,2312
+833,India,17,Meghalaya,2011,Female,1483
+834,India,17,Meghalaya,2011,Male,1500
+835,India,17,Meghalaya,2012,Female,1500
+836,India,17,Meghalaya,2012,Male,1516
+837,India,17,Meghalaya,2013,Female,1516
+838,India,17,Meghalaya,2013,Male,1532
+839,India,17,Meghalaya,2014,Female,1533
+840,India,17,Meghalaya,2014,Male,1547
+841,India,17,Meghalaya,2015,Female,1549
+842,India,17,Meghalaya,2015,Male,1563
+843,India,17,Meghalaya,2016,Female,1566
+844,India,17,Meghalaya,2016,Male,1579
+845,India,17,Meghalaya,2017,Female,1582
+846,India,17,Meghalaya,2017,Male,1594
+847,India,17,Meghalaya,2018,Female,1599
+848,India,17,Meghalaya,2018,Male,1610
+849,India,17,Meghalaya,2019,Female,1615
+850,India,17,Meghalaya,2019,Male,1625
+851,India,17,Meghalaya,2020,Female,1631
+852,India,17,Meghalaya,2020,Male,1641
+853,India,17,Meghalaya,2021,Female,1648
+854,India,17,Meghalaya,2021,Male,1656
+855,India,17,Meghalaya,2022,Female,1663
+856,India,17,Meghalaya,2022,Male,1670
+857,India,17,Meghalaya,2023,Female,1679
+858,India,17,Meghalaya,2023,Male,1685
+859,India,17,Meghalaya,2024,Female,1695
+860,India,17,Meghalaya,2024,Male,1699
+861,India,17,Meghalaya,2025,Female,1711
+862,India,17,Meghalaya,2025,Male,1714
+863,India,17,Meghalaya,2026,Female,1726
+864,India,17,Meghalaya,2026,Male,1728
+865,India,17,Meghalaya,2027,Female,1741
+866,India,17,Meghalaya,2027,Male,1741
+867,India,17,Meghalaya,2028,Female,1755
+868,India,17,Meghalaya,2028,Male,1754
+869,India,17,Meghalaya,2029,Female,1770
+870,India,17,Meghalaya,2029,Male,1767
+871,India,17,Meghalaya,2030,Female,1785
+872,India,17,Meghalaya,2030,Male,1780
+873,India,17,Meghalaya,2031,Female,1798
+874,India,17,Meghalaya,2031,Male,1791
+875,India,17,Meghalaya,2032,Female,1810
+876,India,17,Meghalaya,2032,Male,1801
+877,India,17,Meghalaya,2033,Female,1821
+878,India,17,Meghalaya,2033,Male,1811
+879,India,17,Meghalaya,2034,Female,1833
+880,India,17,Meghalaya,2034,Male,1821
+881,India,17,Meghalaya,2035,Female,1845
+882,India,17,Meghalaya,2035,Male,1831
+883,India,17,Meghalaya,2036,Female,1857
+884,India,17,Meghalaya,2036,Male,1840
+885,India,18,Assam,2011,Female,15381
+886,India,18,Assam,2011,Male,16053
+887,India,18,Assam,2012,Female,15579
+888,India,18,Assam,2012,Male,16248
+889,India,18,Assam,2013,Female,15776
+890,India,18,Assam,2013,Male,16443
+891,India,18,Assam,2014,Female,15974
+892,India,18,Assam,2014,Male,16638
+893,India,18,Assam,2015,Female,16171
+894,India,18,Assam,2015,Male,16834
+895,India,18,Assam,2016,Female,16364
+896,India,18,Assam,2016,Male,17023
+897,India,18,Assam,2017,Female,16553
+898,India,18,Assam,2017,Male,17209
+899,India,18,Assam,2018,Female,16743
+900,India,18,Assam,2018,Male,17394
+901,India,18,Assam,2019,Female,16932
+902,India,18,Assam,2019,Male,17580
+903,India,18,Assam,2020,Female,17122
+904,India,18,Assam,2020,Male,17766
+905,India,18,Assam,2021,Female,17300
+906,India,18,Assam,2021,Male,17938
+907,India,18,Assam,2022,Female,17471
+908,India,18,Assam,2022,Male,18102
+909,India,18,Assam,2023,Female,17642
+910,India,18,Assam,2023,Male,18265
+911,India,18,Assam,2024,Female,17813
+912,India,18,Assam,2024,Male,18429
+913,India,18,Assam,2025,Female,17984
+914,India,18,Assam,2025,Male,18593
+915,India,18,Assam,2026,Female,18145
+916,India,18,Assam,2026,Male,18744
+917,India,18,Assam,2027,Female,18299
+918,India,18,Assam,2027,Male,18886
+919,India,18,Assam,2028,Female,18453
+920,India,18,Assam,2028,Male,19028
+921,India,18,Assam,2029,Female,18607
+922,India,18,Assam,2029,Male,19170
+923,India,18,Assam,2030,Female,18760
+924,India,18,Assam,2030,Male,19313
+925,India,18,Assam,2031,Female,18899
+926,India,18,Assam,2031,Male,19438
+927,India,18,Assam,2032,Female,19027
+928,India,18,Assam,2032,Male,19550
+929,India,18,Assam,2033,Female,19155
+930,India,18,Assam,2033,Male,19663
+931,India,18,Assam,2034,Female,19282
+932,India,18,Assam,2034,Male,19776
+933,India,18,Assam,2035,Female,19410
+934,India,18,Assam,2035,Male,19888
+935,India,18,Assam,2036,Female,19538
+936,India,18,Assam,2036,Male,20001
+937,India,19,West Bengal,2011,Female,44695
+938,India,19,West Bengal,2011,Male,47024
+939,India,19,West Bengal,2012,Female,45087
+940,India,19,West Bengal,2012,Male,47394
+941,India,19,West Bengal,2013,Female,45478
+942,India,19,West Bengal,2013,Male,47763
+943,India,19,West Bengal,2014,Female,45869
+944,India,19,West Bengal,2014,Male,48132
+945,India,19,West Bengal,2015,Female,46260
+946,India,19,West Bengal,2015,Male,48502
+947,India,19,West Bengal,2016,Female,46611
+948,India,19,West Bengal,2016,Male,48824
+949,India,19,West Bengal,2017,Female,46932
+950,India,19,West Bengal,2017,Male,49112
+951,India,19,West Bengal,2018,Female,47253
+952,India,19,West Bengal,2018,Male,49400
+953,India,19,West Bengal,2019,Female,47574
+954,India,19,West Bengal,2019,Male,49687
+955,India,19,West Bengal,2020,Female,47896
+956,India,19,West Bengal,2020,Male,49975
+957,India,19,West Bengal,2021,Female,48182
+958,India,19,West Bengal,2021,Male,50222
+959,India,19,West Bengal,2022,Female,48445
+960,India,19,West Bengal,2022,Male,50439
+961,India,19,West Bengal,2023,Female,48707
+962,India,19,West Bengal,2023,Male,50656
+963,India,19,West Bengal,2024,Female,48970
+964,India,19,West Bengal,2024,Male,50873
+965,India,19,West Bengal,2025,Female,49232
+966,India,19,West Bengal,2025,Male,51090
+967,India,19,West Bengal,2026,Female,49454
+968,India,19,West Bengal,2026,Male,51259
+969,India,19,West Bengal,2027,Female,49648
+970,India,19,West Bengal,2027,Male,51395
+971,India,19,West Bengal,2028,Female,49841
+972,India,19,West Bengal,2028,Male,51530
+973,India,19,West Bengal,2029,Female,50035
+974,India,19,West Bengal,2029,Male,51666
+975,India,19,West Bengal,2030,Female,50228
+976,India,19,West Bengal,2030,Male,51802
+977,India,19,West Bengal,2031,Female,50372
+978,India,19,West Bengal,2031,Male,51884
+979,India,19,West Bengal,2032,Female,50480
+980,India,19,West Bengal,2032,Male,51928
+981,India,19,West Bengal,2033,Female,50589
+982,India,19,West Bengal,2033,Male,51973
+983,India,19,West Bengal,2034,Female,50697
+984,India,19,West Bengal,2034,Male,52017
+985,India,19,West Bengal,2035,Female,50806
+986,India,19,West Bengal,2035,Male,52062
+987,India,19,West Bengal,2036,Female,50914
+988,India,19,West Bengal,2036,Male,52106
+989,India,20,Jharkhand,2011,Female,16219
+990,India,20,Jharkhand,2011,Male,17097
+991,India,20,Jharkhand,2012,Female,16495
+992,India,20,Jharkhand,2012,Male,17383
+993,India,20,Jharkhand,2013,Female,16772
+994,India,20,Jharkhand,2013,Male,17669
+995,India,20,Jharkhand,2014,Female,17048
+996,India,20,Jharkhand,2014,Male,17956
+997,India,20,Jharkhand,2015,Female,17324
+998,India,20,Jharkhand,2015,Male,18242
+999,India,20,Jharkhand,2016,Female,17594
+1000,India,20,Jharkhand,2016,Male,18517
+1001,India,20,Jharkhand,2017,Female,17861
+1002,India,20,Jharkhand,2017,Male,18785
+1003,India,20,Jharkhand,2018,Female,18127
+1004,India,20,Jharkhand,2018,Male,19053
+1005,India,20,Jharkhand,2019,Female,18393
+1006,India,20,Jharkhand,2019,Male,19321
+1007,India,20,Jharkhand,2020,Female,18659
+1008,India,20,Jharkhand,2020,Male,19590
+1009,India,20,Jharkhand,2021,Female,18917
+1010,India,20,Jharkhand,2021,Male,19845
+1011,India,20,Jharkhand,2022,Female,19167
+1012,India,20,Jharkhand,2022,Male,20091
+1013,India,20,Jharkhand,2023,Female,19418
+1014,India,20,Jharkhand,2023,Male,20338
+1015,India,20,Jharkhand,2024,Female,19669
+1016,India,20,Jharkhand,2024,Male,20584
+1017,India,20,Jharkhand,2025,Female,19920
+1018,India,20,Jharkhand,2025,Male,20831
+1019,India,20,Jharkhand,2026,Female,20159
+1020,India,20,Jharkhand,2026,Male,21061
+1021,India,20,Jharkhand,2027,Female,20390
+1022,India,20,Jharkhand,2027,Male,21280
+1023,India,20,Jharkhand,2028,Female,20622
+1024,India,20,Jharkhand,2028,Male,21499
+1025,India,20,Jharkhand,2029,Female,20853
+1026,India,20,Jharkhand,2029,Male,21719
+1027,India,20,Jharkhand,2030,Female,21084
+1028,India,20,Jharkhand,2030,Male,21938
+1029,India,20,Jharkhand,2031,Female,21299
+1030,India,20,Jharkhand,2031,Male,22138
+1031,India,20,Jharkhand,2032,Female,21501
+1032,India,20,Jharkhand,2032,Male,22324
+1033,India,20,Jharkhand,2033,Female,21704
+1034,India,20,Jharkhand,2033,Male,22511
+1035,India,20,Jharkhand,2034,Female,21906
+1036,India,20,Jharkhand,2034,Male,22697
+1037,India,20,Jharkhand,2035,Female,22109
+1038,India,20,Jharkhand,2035,Male,22884
+1039,India,20,Jharkhand,2036,Female,22311
+1040,India,20,Jharkhand,2036,Male,23071
+1041,India,21,Odisha,2011,Female,20882
+1042,India,21,Odisha,2011,Male,21325
+1043,India,21,Odisha,2012,Female,21087
+1044,India,21,Odisha,2012,Male,21518
+1045,India,21,Odisha,2013,Female,21292
+1046,India,21,Odisha,2013,Male,21712
+1047,India,21,Odisha,2014,Female,21496
+1048,India,21,Odisha,2014,Male,21905
+1049,India,21,Odisha,2015,Female,21701
+1050,India,21,Odisha,2015,Male,22099
+1051,India,21,Odisha,2016,Female,21893
+1052,India,21,Odisha,2016,Male,22275
+1053,India,21,Odisha,2017,Female,22074
+1054,India,21,Odisha,2017,Male,22440
+1055,India,21,Odisha,2018,Female,22255
+1056,India,21,Odisha,2018,Male,22605
+1057,India,21,Odisha,2019,Female,22436
+1058,India,21,Odisha,2019,Male,22769
+1059,India,21,Odisha,2020,Female,22618
+1060,India,21,Odisha,2020,Male,22934
+1061,India,21,Odisha,2021,Female,22782
+1062,India,21,Odisha,2021,Male,23083
+1063,India,21,Odisha,2022,Female,22935
+1064,India,21,Odisha,2022,Male,23221
+1065,India,21,Odisha,2023,Female,23087
+1066,India,21,Odisha,2023,Male,23359
+1067,India,21,Odisha,2024,Female,23239
+1068,India,21,Odisha,2024,Male,23497
+1069,India,21,Odisha,2025,Female,23392
+1070,India,21,Odisha,2025,Male,23634
+1071,India,21,Odisha,2026,Female,23525
+1072,India,21,Odisha,2026,Male,23752
+1073,India,21,Odisha,2027,Female,23645
+1074,India,21,Odisha,2027,Male,23854
+1075,India,21,Odisha,2028,Female,23765
+1076,India,21,Odisha,2028,Male,23957
+1077,India,21,Odisha,2029,Female,23885
+1078,India,21,Odisha,2029,Male,24059
+1079,India,21,Odisha,2030,Female,24005
+1080,India,21,Odisha,2030,Male,24162
+1081,India,21,Odisha,2031,Female,24105
+1082,India,21,Odisha,2031,Male,24244
+1083,India,21,Odisha,2032,Female,24191
+1084,India,21,Odisha,2032,Male,24311
+1085,India,21,Odisha,2033,Female,24277
+1086,India,21,Odisha,2033,Male,24379
+1087,India,21,Odisha,2034,Female,24362
+1088,India,21,Odisha,2034,Male,24446
+1089,India,21,Odisha,2035,Female,24448
+1090,India,21,Odisha,2035,Male,24514
+1091,India,21,Odisha,2036,Female,24533
+1092,India,21,Odisha,2036,Male,24582
+1093,India,22,Chhattisgarh,2011,Female,12832
+1094,India,22,Chhattisgarh,2011,Male,12950
+1095,India,22,Chhattisgarh,2012,Female,13037
+1096,India,22,Chhattisgarh,2012,Male,13150
+1097,India,22,Chhattisgarh,2013,Female,13242
+1098,India,22,Chhattisgarh,2013,Male,13350
+1099,India,22,Chhattisgarh,2014,Female,13447
+1100,India,22,Chhattisgarh,2014,Male,13550
+1101,India,22,Chhattisgarh,2015,Female,13652
+1102,India,22,Chhattisgarh,2015,Male,13751
+1103,India,22,Chhattisgarh,2016,Female,13850
+1104,India,22,Chhattisgarh,2016,Male,13946
+1105,India,22,Chhattisgarh,2017,Female,14042
+1106,India,22,Chhattisgarh,2017,Male,14138
+1107,India,22,Chhattisgarh,2018,Female,14234
+1108,India,22,Chhattisgarh,2018,Male,14330
+1109,India,22,Chhattisgarh,2019,Female,14426
+1110,India,22,Chhattisgarh,2019,Male,14522
+1111,India,22,Chhattisgarh,2020,Female,14618
+1112,India,22,Chhattisgarh,2020,Male,14714
+1113,India,22,Chhattisgarh,2021,Female,14799
+1114,India,22,Chhattisgarh,2021,Male,14894
+1115,India,22,Chhattisgarh,2022,Female,14971
+1116,India,22,Chhattisgarh,2022,Male,15066
+1117,India,22,Chhattisgarh,2023,Female,15144
+1118,India,22,Chhattisgarh,2023,Male,15237
+1119,India,22,Chhattisgarh,2024,Female,15316
+1120,India,22,Chhattisgarh,2024,Male,15408
+1121,India,22,Chhattisgarh,2025,Female,15488
+1122,India,22,Chhattisgarh,2025,Male,15579
+1123,India,22,Chhattisgarh,2026,Female,15648
+1124,India,22,Chhattisgarh,2026,Male,15739
+1125,India,22,Chhattisgarh,2027,Female,15799
+1126,India,22,Chhattisgarh,2027,Male,15889
+1127,India,22,Chhattisgarh,2028,Female,15950
+1128,India,22,Chhattisgarh,2028,Male,16040
+1129,India,22,Chhattisgarh,2029,Female,16101
+1130,India,22,Chhattisgarh,2029,Male,16191
+1131,India,22,Chhattisgarh,2030,Female,16252
+1132,India,22,Chhattisgarh,2030,Male,16341
+1133,India,22,Chhattisgarh,2031,Female,16396
+1134,India,22,Chhattisgarh,2031,Male,16482
+1135,India,22,Chhattisgarh,2032,Female,16534
+1136,India,22,Chhattisgarh,2032,Male,16617
+1137,India,22,Chhattisgarh,2033,Female,16672
+1138,India,22,Chhattisgarh,2033,Male,16751
+1139,India,22,Chhattisgarh,2034,Female,16810
+1140,India,22,Chhattisgarh,2034,Male,16885
+1141,India,22,Chhattisgarh,2035,Female,16948
+1142,India,22,Chhattisgarh,2035,Male,17020
+1143,India,22,Chhattisgarh,2036,Female,17086
+1144,India,22,Chhattisgarh,2036,Male,17154
+1145,India,23,Madhya Pradesh,2011,Female,35371
+1146,India,23,Madhya Pradesh,2011,Male,37977
+1147,India,23,Madhya Pradesh,2012,Female,35982
+1148,India,23,Madhya Pradesh,2012,Male,38602
+1149,India,23,Madhya Pradesh,2013,Female,36593
+1150,India,23,Madhya Pradesh,2013,Male,39227
+1151,India,23,Madhya Pradesh,2014,Female,37204
+1152,India,23,Madhya Pradesh,2014,Male,39852
+1492,India,31,Lakshadweep,2028,Male,36
+1153,India,23,Madhya Pradesh,2015,Female,37814
+1154,India,23,Madhya Pradesh,2015,Male,40477
+1155,India,23,Madhya Pradesh,2016,Female,38400
+1156,India,23,Madhya Pradesh,2016,Male,41072
+1157,India,23,Madhya Pradesh,2017,Female,38968
+1158,India,23,Madhya Pradesh,2017,Male,41647
+1159,India,23,Madhya Pradesh,2018,Female,39535
+1160,India,23,Madhya Pradesh,2018,Male,42221
+1161,India,23,Madhya Pradesh,2019,Female,40103
+1162,India,23,Madhya Pradesh,2019,Male,42795
+1163,India,23,Madhya Pradesh,2020,Female,40670
+1164,India,23,Madhya Pradesh,2020,Male,43370
+1165,India,23,Madhya Pradesh,2021,Female,41211
+1166,India,23,Madhya Pradesh,2021,Male,43907
+1167,India,23,Madhya Pradesh,2022,Female,41733
+1168,India,23,Madhya Pradesh,2022,Male,44416
+1169,India,23,Madhya Pradesh,2023,Female,42255
+1170,India,23,Madhya Pradesh,2023,Male,44926
+1171,India,23,Madhya Pradesh,2024,Female,42776
+1172,India,23,Madhya Pradesh,2024,Male,45435
+1173,India,23,Madhya Pradesh,2025,Female,43298
+1174,India,23,Madhya Pradesh,2025,Male,45945
+1175,India,23,Madhya Pradesh,2026,Female,43778
+1176,India,23,Madhya Pradesh,2026,Male,46406
+1177,India,23,Madhya Pradesh,2027,Female,44229
+1178,India,23,Madhya Pradesh,2027,Male,46832
+1179,India,23,Madhya Pradesh,2028,Female,44679
+1180,India,23,Madhya Pradesh,2028,Male,47258
+1181,India,23,Madhya Pradesh,2029,Female,45130
+1182,India,23,Madhya Pradesh,2029,Male,47685
+1183,India,23,Madhya Pradesh,2030,Female,45581
+1184,India,23,Madhya Pradesh,2030,Male,48111
+1185,India,23,Madhya Pradesh,2031,Female,45998
+1186,India,23,Madhya Pradesh,2031,Male,48496
+1187,India,23,Madhya Pradesh,2032,Female,46390
+1188,India,23,Madhya Pradesh,2032,Male,48853
+1189,India,23,Madhya Pradesh,2033,Female,46783
+1190,India,23,Madhya Pradesh,2033,Male,49210
+1191,India,23,Madhya Pradesh,2034,Female,47175
+1192,India,23,Madhya Pradesh,2034,Male,49567
+1193,India,23,Madhya Pradesh,2035,Female,47568
+1194,India,23,Madhya Pradesh,2035,Male,49924
+1195,India,23,Madhya Pradesh,2036,Female,47960
+1196,India,23,Madhya Pradesh,2036,Male,50281
+1197,India,24,Gujarat,2011,Female,29198
+1198,India,24,Gujarat,2011,Male,31792
+1199,India,24,Gujarat,2012,Female,29626
+1200,India,24,Gujarat,2012,Male,32308
+1201,India,24,Gujarat,2013,Female,30053
+1202,India,24,Gujarat,2013,Male,32824
+1203,India,24,Gujarat,2014,Female,30481
+1204,India,24,Gujarat,2014,Male,33340
+1205,India,24,Gujarat,2015,Female,30909
+1206,India,24,Gujarat,2015,Male,33856
+1207,India,24,Gujarat,2016,Female,31332
+1208,India,24,Gujarat,2016,Male,34366
+1209,India,24,Gujarat,2017,Female,31752
+1210,India,24,Gujarat,2017,Male,34872
+1211,India,24,Gujarat,2018,Female,32172
+1212,India,24,Gujarat,2018,Male,35378
+1213,India,24,Gujarat,2019,Female,32593
+1214,India,24,Gujarat,2019,Male,35884
+1215,India,24,Gujarat,2020,Female,33013
+1216,India,24,Gujarat,2020,Male,36390
+1217,India,24,Gujarat,2021,Female,33417
+1218,India,24,Gujarat,2021,Male,36872
+1219,India,24,Gujarat,2022,Female,33811
+1220,India,24,Gujarat,2022,Male,37338
+1221,India,24,Gujarat,2023,Female,34205
+1222,India,24,Gujarat,2023,Male,37804
+1223,India,24,Gujarat,2024,Female,34598
+1224,India,24,Gujarat,2024,Male,38270
+1225,India,24,Gujarat,2025,Female,34992
+1226,India,24,Gujarat,2025,Male,38736
+1227,India,24,Gujarat,2026,Female,35365
+1228,India,24,Gujarat,2026,Male,39170
+1229,India,24,Gujarat,2027,Female,35723
+1230,India,24,Gujarat,2027,Male,39581
+1231,India,24,Gujarat,2028,Female,36081
+1232,India,24,Gujarat,2028,Male,39992
+1233,India,24,Gujarat,2029,Female,36439
+1234,India,24,Gujarat,2029,Male,40403
+1235,India,24,Gujarat,2030,Female,36797
+1236,India,24,Gujarat,2030,Male,40814
+1237,India,24,Gujarat,2031,Female,37129
+1238,India,24,Gujarat,2031,Male,41197
+1239,India,24,Gujarat,2032,Female,37443
+1240,India,24,Gujarat,2032,Male,41560
+1241,India,24,Gujarat,2033,Female,37757
+1242,India,24,Gujarat,2033,Male,41923
+1243,India,24,Gujarat,2034,Female,38071
+1244,India,24,Gujarat,2034,Male,42286
+1245,India,24,Gujarat,2035,Female,38385
+1246,India,24,Gujarat,2035,Male,42648
+1247,India,24,Gujarat,2036,Female,38700
+1248,India,24,Gujarat,2036,Male,43011
+1249,India,27,Maharashtra,2011,Female,54475
+1250,India,27,Maharashtra,2011,Male,58640
+1251,India,27,Maharashtra,2012,Female,55064
+1252,India,27,Maharashtra,2012,Male,59322
+1253,India,27,Maharashtra,2013,Female,55654
+1254,India,27,Maharashtra,2013,Male,60003
+1255,India,27,Maharashtra,2014,Female,56243
+1256,India,27,Maharashtra,2014,Male,60684
+1257,India,27,Maharashtra,2015,Female,56832
+1258,India,27,Maharashtra,2015,Male,61365
+1259,India,27,Maharashtra,2016,Female,57388
+1260,India,27,Maharashtra,2016,Male,62005
+1261,India,27,Maharashtra,2017,Female,57919
+1262,India,27,Maharashtra,2017,Male,62616
+1263,India,27,Maharashtra,2018,Female,58451
+1264,India,27,Maharashtra,2018,Male,63226
+1265,India,27,Maharashtra,2019,Female,58982
+1266,India,27,Maharashtra,2019,Male,63837
+1267,India,27,Maharashtra,2020,Female,59513
+1268,India,27,Maharashtra,2020,Male,64448
+1269,India,27,Maharashtra,2021,Female,60001
+1270,India,27,Maharashtra,2021,Male,65004
+1271,India,27,Maharashtra,2022,Female,60457
+1272,India,27,Maharashtra,2022,Male,65522
+1273,India,27,Maharashtra,2023,Female,60913
+1274,India,27,Maharashtra,2023,Male,66040
+1275,India,27,Maharashtra,2024,Female,61370
+1276,India,27,Maharashtra,2024,Male,66558
+1277,India,27,Maharashtra,2025,Female,61826
+1278,India,27,Maharashtra,2025,Male,67076
+1279,India,27,Maharashtra,2026,Female,62244
+1280,India,27,Maharashtra,2026,Male,67548
+1281,India,27,Maharashtra,2027,Female,62634
+1282,India,27,Maharashtra,2027,Male,67986
+1283,India,27,Maharashtra,2028,Female,63024
+1284,India,27,Maharashtra,2028,Male,68425
+1285,India,27,Maharashtra,2029,Female,63414
+1286,India,27,Maharashtra,2029,Male,68863
+1287,India,27,Maharashtra,2030,Female,63804
+1288,India,27,Maharashtra,2030,Male,69301
+1289,India,27,Maharashtra,2031,Female,64152
+1290,India,27,Maharashtra,2031,Male,69685
+1291,India,27,Maharashtra,2032,Female,64470
+1292,India,27,Maharashtra,2032,Male,70030
+1293,India,27,Maharashtra,2033,Female,64788
+1294,India,27,Maharashtra,2033,Male,70375
+1295,India,27,Maharashtra,2034,Female,65106
+1296,India,27,Maharashtra,2034,Male,70719
+1297,India,27,Maharashtra,2035,Female,65423
+1298,India,27,Maharashtra,2035,Male,71064
+1299,India,27,Maharashtra,2036,Female,65741
+1300,India,27,Maharashtra,2036,Male,71409
+1301,India,28,Andhra Pradesh,2011,Female,24853
+1302,India,28,Andhra Pradesh,2011,Male,24933
+1303,India,28,Andhra Pradesh,2012,Female,25036
+1304,India,28,Andhra Pradesh,2012,Male,25109
+1305,India,28,Andhra Pradesh,2013,Female,25219
+1306,India,28,Andhra Pradesh,2013,Male,25285
+1307,India,28,Andhra Pradesh,2014,Female,25402
+1308,India,28,Andhra Pradesh,2014,Male,25461
+1309,India,28,Andhra Pradesh,2015,Female,25585
+1310,India,28,Andhra Pradesh,2015,Male,25637
+1311,India,28,Andhra Pradesh,2016,Female,25745
+1312,India,28,Andhra Pradesh,2016,Male,25791
+1313,India,28,Andhra Pradesh,2017,Female,25890
+1314,India,28,Andhra Pradesh,2017,Male,25930
+1315,India,28,Andhra Pradesh,2018,Female,26035
+1316,India,28,Andhra Pradesh,2018,Male,26068
+1317,India,28,Andhra Pradesh,2019,Female,26179
+1318,India,28,Andhra Pradesh,2019,Male,26207
+1319,India,28,Andhra Pradesh,2020,Female,26324
+1320,India,28,Andhra Pradesh,2020,Male,26345
+1321,India,28,Andhra Pradesh,2021,Female,26441
+1322,India,28,Andhra Pradesh,2021,Male,26453
+1323,India,28,Andhra Pradesh,2022,Female,26539
+1324,India,28,Andhra Pradesh,2022,Male,26540
+1325,India,28,Andhra Pradesh,2023,Female,26638
+1326,India,28,Andhra Pradesh,2023,Male,26626
+1327,India,28,Andhra Pradesh,2024,Female,26736
+1328,India,28,Andhra Pradesh,2024,Male,26712
+1329,India,28,Andhra Pradesh,2025,Female,26834
+1330,India,28,Andhra Pradesh,2025,Male,26798
+1331,India,28,Andhra Pradesh,2026,Female,26906
+1332,India,28,Andhra Pradesh,2026,Male,26857
+1333,India,28,Andhra Pradesh,2027,Female,26959
+1334,India,28,Andhra Pradesh,2027,Male,26897
+1335,India,28,Andhra Pradesh,2028,Female,27013
+1336,India,28,Andhra Pradesh,2028,Male,26937
+1337,India,28,Andhra Pradesh,2029,Female,27066
+1338,India,28,Andhra Pradesh,2029,Male,26977
+1339,India,28,Andhra Pradesh,2030,Female,27120
+1340,India,28,Andhra Pradesh,2030,Male,27016
+1341,India,28,Andhra Pradesh,2031,Female,27152
+1342,India,28,Andhra Pradesh,2031,Male,27033
+1343,India,28,Andhra Pradesh,2032,Female,27168
+1344,India,28,Andhra Pradesh,2032,Male,27032
+1345,India,28,Andhra Pradesh,2033,Female,27184
+1346,India,28,Andhra Pradesh,2033,Male,27031
+1347,India,28,Andhra Pradesh,2034,Female,27200
+1348,India,28,Andhra Pradesh,2034,Male,27030
+1349,India,28,Andhra Pradesh,2035,Female,27216
+1350,India,28,Andhra Pradesh,2035,Male,27030
+1351,India,28,Andhra Pradesh,2036,Female,27232
+1352,India,28,Andhra Pradesh,2036,Male,27029
+1353,India,29,Karnataka,2011,Female,30307
+1354,India,29,Karnataka,2011,Male,31153
+1355,India,29,Karnataka,2012,Female,30614
+1356,India,29,Karnataka,2012,Male,31474
+1357,India,29,Karnataka,2013,Female,30921
+1358,India,29,Karnataka,2013,Male,31794
+1359,India,29,Karnataka,2014,Female,31227
+1360,India,29,Karnataka,2014,Male,32114
+1361,India,29,Karnataka,2015,Female,31534
+1362,India,29,Karnataka,2015,Male,32434
+1363,India,29,Karnataka,2016,Female,31810
+1364,India,29,Karnataka,2016,Male,32724
+1365,India,29,Karnataka,2017,Female,32064
+1366,India,29,Karnataka,2017,Male,32993
+1367,India,29,Karnataka,2018,Female,32319
+1368,India,29,Karnataka,2018,Male,33262
+1369,India,29,Karnataka,2019,Female,32573
+1370,India,29,Karnataka,2019,Male,33530
+1371,India,29,Karnataka,2020,Female,32828
+1372,India,29,Karnataka,2020,Male,33799
+1373,India,29,Karnataka,2021,Female,33055
+1374,India,29,Karnataka,2021,Male,34037
+1375,India,29,Karnataka,2022,Female,33263
+1376,India,29,Karnataka,2022,Male,34252
+1377,India,29,Karnataka,2023,Female,33471
+1378,India,29,Karnataka,2023,Male,34467
+1379,India,29,Karnataka,2024,Female,33680
+1380,India,29,Karnataka,2024,Male,34682
+1381,India,29,Karnataka,2025,Female,33888
+1382,India,29,Karnataka,2025,Male,34897
+1383,India,29,Karnataka,2026,Female,34072
+1384,India,29,Karnataka,2026,Male,35087
+1385,India,29,Karnataka,2027,Female,34240
+1386,India,29,Karnataka,2027,Male,35257
+1387,India,29,Karnataka,2028,Female,34407
+1388,India,29,Karnataka,2028,Male,35428
+1389,India,29,Karnataka,2029,Female,34575
+1390,India,29,Karnataka,2029,Male,35598
+1391,India,29,Karnataka,2030,Female,34742
+1392,India,29,Karnataka,2030,Male,35769
+1393,India,29,Karnataka,2031,Female,34888
+1394,India,29,Karnataka,2031,Male,35915
+1395,India,29,Karnataka,2032,Female,35019
+1396,India,29,Karnataka,2032,Male,36043
+1397,India,29,Karnataka,2033,Female,35150
+1398,India,29,Karnataka,2033,Male,36172
+1399,India,29,Karnataka,2034,Female,35280
+1400,India,29,Karnataka,2034,Male,36300
+1401,India,29,Karnataka,2035,Female,35411
+1402,India,29,Karnataka,2035,Male,36429
+1403,India,29,Karnataka,2036,Female,35542
+1404,India,29,Karnataka,2036,Male,36557
+1405,India,30,Goa,2011,Female,723
+1406,India,30,Goa,2011,Male,742
+1407,India,30,Goa,2012,Female,728
+1408,India,30,Goa,2012,Male,747
+1409,India,30,Goa,2013,Female,734
+1410,India,30,Goa,2013,Male,752
+1411,India,30,Goa,2014,Female,740
+1412,India,30,Goa,2014,Male,757
+1413,India,30,Goa,2015,Female,745
+1414,India,30,Goa,2015,Male,762
+1415,India,30,Goa,2016,Female,750
+1416,India,30,Goa,2016,Male,767
+1417,India,30,Goa,2017,Female,755
+1418,India,30,Goa,2017,Male,771
+1419,India,30,Goa,2018,Female,760
+1420,India,30,Goa,2018,Male,776
+1421,India,30,Goa,2019,Female,766
+1422,India,30,Goa,2019,Male,780
+1423,India,30,Goa,2020,Female,771
+1424,India,30,Goa,2020,Male,784
+1425,India,30,Goa,2021,Female,775
+1426,India,30,Goa,2021,Male,788
+1427,India,30,Goa,2022,Female,779
+1428,India,30,Goa,2022,Male,792
+1429,India,30,Goa,2023,Female,784
+1430,India,30,Goa,2023,Male,796
+1431,India,30,Goa,2024,Female,788
+1432,India,30,Goa,2024,Male,799
+1433,India,30,Goa,2025,Female,793
+1434,India,30,Goa,2025,Male,803
+1435,India,30,Goa,2026,Female,797
+1436,India,30,Goa,2026,Male,806
+1437,India,30,Goa,2027,Female,800
+1438,India,30,Goa,2027,Male,809
+1439,India,30,Goa,2028,Female,804
+1440,India,30,Goa,2028,Male,812
+1441,India,30,Goa,2029,Female,808
+1442,India,30,Goa,2029,Male,815
+1443,India,30,Goa,2030,Female,812
+1444,India,30,Goa,2030,Male,819
+1445,India,30,Goa,2031,Female,815
+1446,India,30,Goa,2031,Male,821
+1447,India,30,Goa,2032,Female,819
+1448,India,30,Goa,2032,Male,824
+1449,India,30,Goa,2033,Female,822
+1450,India,30,Goa,2033,Male,827
+1451,India,30,Goa,2034,Female,825
+1452,India,30,Goa,2034,Male,829
+1453,India,30,Goa,2035,Female,829
+1454,India,30,Goa,2035,Male,832
+1455,India,30,Goa,2036,Female,832
+1456,India,30,Goa,2036,Male,834
+1457,India,31,Lakshadweep,2011,Female,31
+1458,India,31,Lakshadweep,2011,Male,33
+1459,India,31,Lakshadweep,2012,Female,32
+1460,India,31,Lakshadweep,2012,Male,33
+1461,India,31,Lakshadweep,2013,Female,32
+1462,India,31,Lakshadweep,2013,Male,34
+1463,India,31,Lakshadweep,2014,Female,32
+1464,India,31,Lakshadweep,2014,Male,34
+1465,India,31,Lakshadweep,2015,Female,32
+1466,India,31,Lakshadweep,2015,Male,34
+1467,India,31,Lakshadweep,2016,Female,32
+1468,India,31,Lakshadweep,2016,Male,34
+1469,India,31,Lakshadweep,2017,Female,33
+1470,India,31,Lakshadweep,2017,Male,34
+1471,India,31,Lakshadweep,2018,Female,33
+1472,India,31,Lakshadweep,2018,Male,35
+1473,India,31,Lakshadweep,2019,Female,33
+1474,India,31,Lakshadweep,2019,Male,35
+1475,India,31,Lakshadweep,2020,Female,33
+1476,India,31,Lakshadweep,2020,Male,35
+1477,India,31,Lakshadweep,2021,Female,33
+1478,India,31,Lakshadweep,2021,Male,35
+1479,India,31,Lakshadweep,2022,Female,33
+1480,India,31,Lakshadweep,2022,Male,35
+1481,India,31,Lakshadweep,2023,Female,33
+1482,India,31,Lakshadweep,2023,Male,35
+1483,India,31,Lakshadweep,2024,Female,34
+1484,India,31,Lakshadweep,2024,Male,36
+1485,India,31,Lakshadweep,2025,Female,34
+1486,India,31,Lakshadweep,2025,Male,36
+1487,India,31,Lakshadweep,2026,Female,34
+1488,India,31,Lakshadweep,2026,Male,36
+1489,India,31,Lakshadweep,2027,Female,34
+1490,India,31,Lakshadweep,2027,Male,36
+1491,India,31,Lakshadweep,2028,Female,34
+1493,India,31,Lakshadweep,2029,Female,34
+1494,India,31,Lakshadweep,2029,Male,36
+1495,India,31,Lakshadweep,2030,Female,34
+1496,India,31,Lakshadweep,2030,Male,36
+1497,India,31,Lakshadweep,2031,Female,34
+1498,India,31,Lakshadweep,2031,Male,36
+1499,India,31,Lakshadweep,2032,Female,34
+1500,India,31,Lakshadweep,2032,Male,36
+1501,India,31,Lakshadweep,2033,Female,35
+1502,India,31,Lakshadweep,2033,Male,37
+1503,India,31,Lakshadweep,2034,Female,35
+1504,India,31,Lakshadweep,2034,Male,37
+1505,India,31,Lakshadweep,2035,Female,35
+1506,India,31,Lakshadweep,2035,Male,37
+1507,India,31,Lakshadweep,2036,Female,35
+1508,India,31,Lakshadweep,2036,Male,37
+1509,India,32,Kerala,2011,Female,17449
+1510,India,32,Kerala,2011,Male,16094
+1511,India,32,Kerala,2012,Female,17570
+1512,India,32,Kerala,2012,Male,16207
+1513,India,32,Kerala,2013,Female,17691
+1514,India,32,Kerala,2013,Male,16320
+1515,India,32,Kerala,2014,Female,17813
+1516,India,32,Kerala,2014,Male,16434
+1517,India,32,Kerala,2015,Female,17934
+1518,India,32,Kerala,2015,Male,16547
+1519,India,32,Kerala,2016,Female,18038
+1520,India,32,Kerala,2016,Male,16647
+1521,India,32,Kerala,2017,Female,18131
+1522,India,32,Kerala,2017,Male,16736
+1523,India,32,Kerala,2018,Female,18223
+1524,India,32,Kerala,2018,Male,16826
+1525,India,32,Kerala,2019,Female,18316
+1526,India,32,Kerala,2019,Male,16916
+1527,India,32,Kerala,2020,Female,18408
+1528,India,32,Kerala,2020,Male,17005
+1529,India,32,Kerala,2021,Female,18489
+1530,India,32,Kerala,2021,Male,17084
+1531,India,32,Kerala,2022,Female,18562
+1532,India,32,Kerala,2022,Male,17154
+1533,India,32,Kerala,2023,Female,18635
+1534,India,32,Kerala,2023,Male,17225
+1535,India,32,Kerala,2024,Female,18708
+1536,India,32,Kerala,2024,Male,17295
+1537,India,32,Kerala,2025,Female,18781
+1538,India,32,Kerala,2025,Male,17366
+1539,India,32,Kerala,2026,Female,18840
+1540,India,32,Kerala,2026,Male,17423
+1541,India,32,Kerala,2027,Female,18889
+1542,India,32,Kerala,2027,Male,17472
+1543,India,32,Kerala,2028,Female,18938
+1544,India,32,Kerala,2028,Male,17521
+1545,India,32,Kerala,2029,Female,18987
+1546,India,32,Kerala,2029,Male,17569
+1547,India,32,Kerala,2030,Female,19036
+1548,India,32,Kerala,2030,Male,17618
+1549,India,32,Kerala,2031,Female,19070
+1550,India,32,Kerala,2031,Male,17654
+1551,India,32,Kerala,2032,Female,19094
+1552,India,32,Kerala,2032,Male,17681
+1553,India,32,Kerala,2033,Female,19117
+1554,India,32,Kerala,2033,Male,17709
+1555,India,32,Kerala,2034,Female,19141
+1556,India,32,Kerala,2034,Male,17736
+1557,India,32,Kerala,2035,Female,19164
+1558,India,32,Kerala,2035,Male,17763
+1559,India,32,Kerala,2036,Female,19187
+1560,India,32,Kerala,2036,Male,17791
+1561,India,33,Tamil Nadu,2011,Female,36159
+1562,India,33,Tamil Nadu,2011,Male,36278
+1563,India,33,Tamil Nadu,2012,Female,36416
+1564,India,33,Tamil Nadu,2012,Male,36519
+1565,India,33,Tamil Nadu,2013,Female,36673
+1566,India,33,Tamil Nadu,2013,Male,36760
+1567,India,33,Tamil Nadu,2014,Female,36930
+1568,India,33,Tamil Nadu,2014,Male,37001
+1569,India,33,Tamil Nadu,2015,Female,37186
+1570,India,33,Tamil Nadu,2015,Male,37241
+1571,India,33,Tamil Nadu,2016,Female,37404
+1572,India,33,Tamil Nadu,2016,Male,37438
+1573,India,33,Tamil Nadu,2017,Female,37592
+1574,India,33,Tamil Nadu,2017,Male,37602
+1575,India,33,Tamil Nadu,2018,Female,37781
+1576,India,33,Tamil Nadu,2018,Male,37767
+1577,India,33,Tamil Nadu,2019,Female,37970
+1578,India,33,Tamil Nadu,2019,Male,37932
+1579,India,33,Tamil Nadu,2020,Female,38159
+1580,India,33,Tamil Nadu,2020,Male,38096
+1581,India,33,Tamil Nadu,2021,Female,38314
+1582,India,33,Tamil Nadu,2021,Male,38222
+1583,India,33,Tamil Nadu,2022,Female,38445
+1584,India,33,Tamil Nadu,2022,Male,38320
+1585,India,33,Tamil Nadu,2023,Female,38576
+1586,India,33,Tamil Nadu,2023,Male,38418
+1587,India,33,Tamil Nadu,2024,Female,38707
+1588,India,33,Tamil Nadu,2024,Male,38515
+1589,India,33,Tamil Nadu,2025,Female,38838
+1590,India,33,Tamil Nadu,2025,Male,38613
+1591,India,33,Tamil Nadu,2026,Female,38934
+1592,India,33,Tamil Nadu,2026,Male,38675
+1593,India,33,Tamil Nadu,2027,Female,39006
+1594,India,33,Tamil Nadu,2027,Male,38710
+1595,India,33,Tamil Nadu,2028,Female,39078
+1596,India,33,Tamil Nadu,2028,Male,38745
+1597,India,33,Tamil Nadu,2029,Female,39150
+1598,India,33,Tamil Nadu,2029,Male,38780
+1599,India,33,Tamil Nadu,2030,Female,39222
+1600,India,33,Tamil Nadu,2030,Male,38816
+1601,India,33,Tamil Nadu,2031,Female,39261
+1602,India,33,Tamil Nadu,2031,Male,38820
+1603,India,33,Tamil Nadu,2032,Female,39276
+1604,India,33,Tamil Nadu,2032,Male,38801
+1605,India,33,Tamil Nadu,2033,Female,39291
+1606,India,33,Tamil Nadu,2033,Male,38783
+1607,India,33,Tamil Nadu,2034,Female,39306
+1608,India,33,Tamil Nadu,2034,Male,38765
+1609,India,33,Tamil Nadu,2035,Female,39322
+1610,India,33,Tamil Nadu,2035,Male,38747
+1611,India,33,Tamil Nadu,2036,Female,39337
+1612,India,33,Tamil Nadu,2036,Male,38728
+1613,India,34,Puducherry,2011,Female,645
+1614,India,34,Puducherry,2011,Male,620
+1615,India,34,Puducherry,2012,Female,663
+1616,India,34,Puducherry,2012,Male,634
+1617,India,34,Puducherry,2013,Female,680
+1618,India,34,Puducherry,2013,Male,648
+1619,India,34,Puducherry,2014,Female,697
+1620,India,34,Puducherry,2014,Male,661
+1621,India,34,Puducherry,2015,Female,714
+1622,India,34,Puducherry,2015,Male,675
+1623,India,34,Puducherry,2016,Female,733
+1624,India,34,Puducherry,2016,Male,689
+1625,India,34,Puducherry,2017,Female,752
+1626,India,34,Puducherry,2017,Male,703
+1627,India,34,Puducherry,2018,Female,772
+1628,India,34,Puducherry,2018,Male,718
+1629,India,34,Puducherry,2019,Female,791
+1630,India,34,Puducherry,2019,Male,732
+1631,India,34,Puducherry,2020,Female,811
+1632,India,34,Puducherry,2020,Male,747
+1633,India,34,Puducherry,2021,Female,831
+1634,India,34,Puducherry,2021,Male,762
+1635,India,34,Puducherry,2022,Female,853
+1636,India,34,Puducherry,2022,Male,777
+1637,India,34,Puducherry,2023,Female,875
+1638,India,34,Puducherry,2023,Male,792
+1639,India,34,Puducherry,2024,Female,897
+1640,India,34,Puducherry,2024,Male,807
+1641,India,34,Puducherry,2025,Female,919
+1642,India,34,Puducherry,2025,Male,823
+1643,India,34,Puducherry,2026,Female,942
+1644,India,34,Puducherry,2026,Male,839
+1645,India,34,Puducherry,2027,Female,967
+1646,India,34,Puducherry,2027,Male,855
+1647,India,34,Puducherry,2028,Female,991
+1648,India,34,Puducherry,2028,Male,871
+1649,India,34,Puducherry,2029,Female,1016
+1650,India,34,Puducherry,2029,Male,887
+1651,India,34,Puducherry,2030,Female,1040
+1652,India,34,Puducherry,2030,Male,903
+1653,India,34,Puducherry,2031,Female,1067
+1654,India,34,Puducherry,2031,Male,920
+1655,India,34,Puducherry,2032,Female,1094
+1656,India,34,Puducherry,2032,Male,937
+1657,India,34,Puducherry,2033,Female,1122
+1658,India,34,Puducherry,2033,Male,954
+1659,India,34,Puducherry,2034,Female,1150
+1660,India,34,Puducherry,2034,Male,971
+1661,India,34,Puducherry,2035,Female,1177
+1662,India,34,Puducherry,2035,Male,988
+1663,India,34,Puducherry,2036,Female,1205
+1664,India,34,Puducherry,2036,Male,1005
+1665,India,35,Andaman And Nicobar Islands,2011,Female,178
+1666,India,35,Andaman And Nicobar Islands,2011,Male,203
+1667,India,35,Andaman And Nicobar Islands,2012,Female,180
+1668,India,35,Andaman And Nicobar Islands,2012,Male,204
+1669,India,35,Andaman And Nicobar Islands,2013,Female,181
+1670,India,35,Andaman And Nicobar Islands,2013,Male,205
+1671,India,35,Andaman And Nicobar Islands,2014,Female,182
+1672,India,35,Andaman And Nicobar Islands,2014,Male,206
+1673,India,35,Andaman And Nicobar Islands,2015,Female,184
+1674,India,35,Andaman And Nicobar Islands,2015,Male,207
+1675,India,35,Andaman And Nicobar Islands,2016,Female,185
+1676,India,35,Andaman And Nicobar Islands,2016,Male,208
+1677,India,35,Andaman And Nicobar Islands,2017,Female,186
+1678,India,35,Andaman And Nicobar Islands,2017,Male,209
+1679,India,35,Andaman And Nicobar Islands,2018,Female,187
+1680,India,35,Andaman And Nicobar Islands,2018,Male,210
+1681,India,35,Andaman And Nicobar Islands,2019,Female,188
+1682,India,35,Andaman And Nicobar Islands,2019,Male,210
+1683,India,35,Andaman And Nicobar Islands,2020,Female,189
+1684,India,35,Andaman And Nicobar Islands,2020,Male,211
+1685,India,35,Andaman And Nicobar Islands,2021,Female,189
+1686,India,35,Andaman And Nicobar Islands,2021,Male,212
+1687,India,35,Andaman And Nicobar Islands,2022,Female,190
+1688,India,35,Andaman And Nicobar Islands,2022,Male,212
+1689,India,35,Andaman And Nicobar Islands,2023,Female,191
+1690,India,35,Andaman And Nicobar Islands,2023,Male,213
+1691,India,35,Andaman And Nicobar Islands,2024,Female,191
+1692,India,35,Andaman And Nicobar Islands,2024,Male,213
+1693,India,35,Andaman And Nicobar Islands,2025,Female,192
+1694,India,35,Andaman And Nicobar Islands,2025,Male,214
+1695,India,35,Andaman And Nicobar Islands,2026,Female,193
+1696,India,35,Andaman And Nicobar Islands,2026,Male,214
+1697,India,35,Andaman And Nicobar Islands,2027,Female,193
+1698,India,35,Andaman And Nicobar Islands,2027,Male,214
+1699,India,35,Andaman And Nicobar Islands,2028,Female,194
+1700,India,35,Andaman And Nicobar Islands,2028,Male,215
+1701,India,35,Andaman And Nicobar Islands,2029,Female,194
+1702,India,35,Andaman And Nicobar Islands,2029,Male,215
+1703,India,35,Andaman And Nicobar Islands,2030,Female,195
+1704,India,35,Andaman And Nicobar Islands,2030,Male,215
+1705,India,35,Andaman And Nicobar Islands,2031,Female,195
+1706,India,35,Andaman And Nicobar Islands,2031,Male,216
+1707,India,35,Andaman And Nicobar Islands,2032,Female,195
+1708,India,35,Andaman And Nicobar Islands,2032,Male,216
+1709,India,35,Andaman And Nicobar Islands,2033,Female,196
+1710,India,35,Andaman And Nicobar Islands,2033,Male,216
+1711,India,35,Andaman And Nicobar Islands,2034,Female,196
+1712,India,35,Andaman And Nicobar Islands,2034,Male,216
+1713,India,35,Andaman And Nicobar Islands,2035,Female,196
+1714,India,35,Andaman And Nicobar Islands,2035,Male,217
+1715,India,35,Andaman And Nicobar Islands,2036,Female,197
+1716,India,35,Andaman And Nicobar Islands,2036,Male,217
+1717,India,36,Telangana,2011,Female,17464
+1718,India,36,Telangana,2011,Male,17685
+1719,India,36,Telangana,2012,Female,17609
+1720,India,36,Telangana,2012,Male,17832
+1721,India,36,Telangana,2013,Female,17754
+1722,India,36,Telangana,2013,Male,17979
+1723,India,36,Telangana,2014,Female,17899
+1724,India,36,Telangana,2014,Male,18126
+1725,India,36,Telangana,2015,Female,18043
+1726,India,36,Telangana,2015,Male,18272
+1727,India,36,Telangana,2016,Female,18179
+1728,India,36,Telangana,2016,Male,18409
+1729,India,36,Telangana,2017,Female,18305
+1730,India,36,Telangana,2017,Male,18536
+1731,India,36,Telangana,2018,Female,18432
+1732,India,36,Telangana,2018,Male,18662
+1733,India,36,Telangana,2019,Female,18558
+1734,India,36,Telangana,2019,Male,18788
+1735,India,36,Telangana,2020,Female,18684
+1736,India,36,Telangana,2020,Male,18915
+1737,India,36,Telangana,2021,Female,18794
+1738,India,36,Telangana,2021,Male,19022
+1739,India,36,Telangana,2022,Female,18889
+1740,India,36,Telangana,2022,Male,19110
+1741,India,36,Telangana,2023,Female,18983
+1742,India,36,Telangana,2023,Male,19197
+1743,India,36,Telangana,2024,Female,19078
+1744,India,36,Telangana,2024,Male,19285
+1745,India,36,Telangana,2025,Female,19172
+1746,India,36,Telangana,2025,Male,19373
+1747,India,36,Telangana,2026,Female,19251
+1748,India,36,Telangana,2026,Male,19442
+1749,India,36,Telangana,2027,Female,19313
+1750,India,36,Telangana,2027,Male,19494
+1751,India,36,Telangana,2028,Female,19375
+1752,India,36,Telangana,2028,Male,19546
+1753,India,36,Telangana,2029,Female,19438
+1754,India,36,Telangana,2029,Male,19598
+1755,India,36,Telangana,2030,Female,19500
+1756,India,36,Telangana,2030,Male,19649
+1757,India,36,Telangana,2031,Female,19548
+1758,India,36,Telangana,2031,Male,19685
+1759,India,36,Telangana,2032,Female,19581
+1760,India,36,Telangana,2032,Male,19704
+1761,India,36,Telangana,2033,Female,19614
+1762,India,36,Telangana,2033,Male,19723
+1763,India,36,Telangana,2034,Female,19646
+1764,India,36,Telangana,2034,Male,19743
+1765,India,36,Telangana,2035,Female,19679
+1766,India,36,Telangana,2035,Male,19762
+1767,India,36,Telangana,2036,Female,19712
+1768,India,36,Telangana,2036,Male,19781
+1769,India,37,Ladakh,2011,Female,118
+1770,India,37,Ladakh,2011,Male,157
+1771,India,37,Ladakh,2012,Female,120
+1772,India,37,Ladakh,2012,Male,159
+1773,India,37,Ladakh,2013,Female,121
+1774,India,37,Ladakh,2013,Male,160
+1775,India,37,Ladakh,2014,Female,123
+1776,India,37,Ladakh,2014,Male,161
+1777,India,37,Ladakh,2015,Female,124
+1778,India,37,Ladakh,2015,Male,162
+1779,India,37,Ladakh,2016,Female,125
+1780,India,37,Ladakh,2016,Male,163
+1781,India,37,Ladakh,2017,Female,126
+1782,India,37,Ladakh,2017,Male,164
+1783,India,37,Ladakh,2018,Female,127
+1784,India,37,Ladakh,2018,Male,165
+1785,India,37,Ladakh,2019,Female,128
+1786,India,37,Ladakh,2019,Male,166
+1787,India,37,Ladakh,2020,Female,130
+1788,India,37,Ladakh,2020,Male,167
+1789,India,37,Ladakh,2021,Female,131
+1790,India,37,Ladakh,2021,Male,167
+1791,India,37,Ladakh,2022,Female,132
+1792,India,37,Ladakh,2022,Male,168
+1793,India,37,Ladakh,2023,Female,133
+1794,India,37,Ladakh,2023,Male,169
+1795,India,37,Ladakh,2024,Female,133
+1796,India,37,Ladakh,2024,Male,169
+1797,India,37,Ladakh,2025,Female,134
+1798,India,37,Ladakh,2025,Male,170
+1799,India,37,Ladakh,2026,Female,135
+1800,India,37,Ladakh,2026,Male,171
+1801,India,37,Ladakh,2027,Female,136
+1802,India,37,Ladakh,2027,Male,171
+1803,India,37,Ladakh,2028,Female,137
+1804,India,37,Ladakh,2028,Male,172
+1805,India,37,Ladakh,2029,Female,138
+1806,India,37,Ladakh,2029,Male,172
+1807,India,37,Ladakh,2030,Female,139
+1808,India,37,Ladakh,2030,Male,172
+1809,India,37,Ladakh,2031,Female,139
+1810,India,37,Ladakh,2031,Male,173
+1811,India,37,Ladakh,2032,Female,140
+1812,India,37,Ladakh,2032,Male,173
+1813,India,37,Ladakh,2033,Female,141
+1814,India,37,Ladakh,2033,Male,173
+1815,India,37,Ladakh,2034,Female,141
+1816,India,37,Ladakh,2034,Male,173
+1817,India,37,Ladakh,2035,Female,142
+1818,India,37,Ladakh,2035,Male,174
+1819,India,37,Ladakh,2036,Female,143
+1820,India,37,Ladakh,2036,Male,174
+1821,India,38,The Dadra And Nagar Haveli And Daman And Diu,2011,Female,250.00000000000000000000
+1822,India,38,The Dadra And Nagar Haveli And Daman And Diu,2011,Male,360.00000000000000000000
+1823,India,38,The Dadra And Nagar Haveli And Daman And Diu,2012,Female,262.00000000000000000000
+1824,India,38,The Dadra And Nagar Haveli And Daman And Diu,2012,Male,386.00000000000000000000
+1825,India,38,The Dadra And Nagar Haveli And Daman And Diu,2013,Female,274.00000000000000000000
+1826,India,38,The Dadra And Nagar Haveli And Daman And Diu,2013,Male,413.00000000000000000000
+1827,India,38,The Dadra And Nagar Haveli And Daman And Diu,2014,Female,286.00000000000000000000
+1828,India,38,The Dadra And Nagar Haveli And Daman And Diu,2014,Male,441.00000000000000000000
+1829,India,38,The Dadra And Nagar Haveli And Daman And Diu,2015,Female,298.00000000000000000000
+1830,India,38,The Dadra And Nagar Haveli And Daman And Diu,2015,Male,467.00000000000000000000
+1831,India,38,The Dadra And Nagar Haveli And Daman And Diu,2016,Female,313.00000000000000000000
+1832,India,38,The Dadra And Nagar Haveli And Daman And Diu,2016,Male,504.00000000000000000000
+1833,India,38,The Dadra And Nagar Haveli And Daman And Diu,2017,Female,329.00000000000000000000
+1834,India,38,The Dadra And Nagar Haveli And Daman And Diu,2017,Male,546.00000000000000000000
+1835,India,38,The Dadra And Nagar Haveli And Daman And Diu,2018,Female,345.00000000000000000000
+1836,India,38,The Dadra And Nagar Haveli And Daman And Diu,2018,Male,589.00000000000000000000
+1837,India,38,The Dadra And Nagar Haveli And Daman And Diu,2019,Female,361.00000000000000000000
+1838,India,38,The Dadra And Nagar Haveli And Daman And Diu,2019,Male,633.00000000000000000000
+1839,India,38,The Dadra And Nagar Haveli And Daman And Diu,2020,Female,377.00000000000000000000
+1840,India,38,The Dadra And Nagar Haveli And Daman And Diu,2020,Male,675.00000000000000000000
+1841,India,38,The Dadra And Nagar Haveli And Daman And Diu,2021,Female,398.00000000000000000000
+1842,India,38,The Dadra And Nagar Haveli And Daman And Diu,2021,Male,734.00000000000000000000
+1843,India,38,The Dadra And Nagar Haveli And Daman And Diu,2022,Female,420.00000000000000000000
+1844,India,38,The Dadra And Nagar Haveli And Daman And Diu,2022,Male,805.00000000000000000000
+1845,India,38,The Dadra And Nagar Haveli And Daman And Diu,2023,Female,442.00000000000000000000
+1846,India,38,The Dadra And Nagar Haveli And Daman And Diu,2023,Male,875.00000000000000000000
+1847,India,38,The Dadra And Nagar Haveli And Daman And Diu,2024,Female,465.00000000000000000000
+1848,India,38,The Dadra And Nagar Haveli And Daman And Diu,2024,Male,946.00000000000000000000
+1849,India,38,The Dadra And Nagar Haveli And Daman And Diu,2025,Female,487.00000000000000000000
+1850,India,38,The Dadra And Nagar Haveli And Daman And Diu,2025,Male,1016.00000000000000000000
+1851,India,38,The Dadra And Nagar Haveli And Daman And Diu,2026,Female,514.00000000000000000000
+1852,India,38,The Dadra And Nagar Haveli And Daman And Diu,2026,Male,1117.00000000000000000000
+1853,India,38,The Dadra And Nagar Haveli And Daman And Diu,2027,Female,545.00000000000000000000
+1854,India,38,The Dadra And Nagar Haveli And Daman And Diu,2027,Male,1241.00000000000000000000
+1855,India,38,The Dadra And Nagar Haveli And Daman And Diu,2028,Female,576.00000000000000000000
+1856,India,38,The Dadra And Nagar Haveli And Daman And Diu,2028,Male,1364.00000000000000000000
+1857,India,38,The Dadra And Nagar Haveli And Daman And Diu,2029,Female,607.00000000000000000000
+1858,India,38,The Dadra And Nagar Haveli And Daman And Diu,2029,Male,1487.00000000000000000000
+1859,India,38,The Dadra And Nagar Haveli And Daman And Diu,2030,Female,638.00000000000000000000
+1860,India,38,The Dadra And Nagar Haveli And Daman And Diu,2030,Male,1612.00000000000000000000
+1861,India,38,The Dadra And Nagar Haveli And Daman And Diu,2031,Female,678.00000000000000000000
+1862,India,38,The Dadra And Nagar Haveli And Daman And Diu,2031,Male,1795.00000000000000000000
+1863,India,38,The Dadra And Nagar Haveli And Daman And Diu,2032,Female,721.00000000000000000000
+1864,India,38,The Dadra And Nagar Haveli And Daman And Diu,2032,Male,2023.00000000000000000000
+1865,India,38,The Dadra And Nagar Haveli And Daman And Diu,2033,Female,766.00000000000000000000
+1866,India,38,The Dadra And Nagar Haveli And Daman And Diu,2033,Male,2250.00000000000000000000
+1867,India,38,The Dadra And Nagar Haveli And Daman And Diu,2034,Female,810.00000000000000000000
+1868,India,38,The Dadra And Nagar Haveli And Daman And Diu,2034,Male,2477.00000000000000000000
+1869,India,38,The Dadra And Nagar Haveli And Daman And Diu,2035,Female,854.00000000000000000000
+1870,India,38,The Dadra And Nagar Haveli And Daman And Diu,2035,Male,2704.00000000000000000000
+1871,India,38,The Dadra And Nagar Haveli And Daman And Diu,2036,Female,899.00000000000000000000
+1872,India,38,The Dadra And Nagar Haveli And Daman And Diu,2036,Male,2931.00000000000000000000

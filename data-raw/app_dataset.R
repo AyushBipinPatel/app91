@@ -45,7 +45,7 @@ tidyr::pivot_longer(data = india_states_gdp,
 
 # Stae gdppc data for india
 
-read.csv(here("data-raw/10_1_data_epw_series_per_capita_sdp_net.csv")) -> india_states_gdppc
+read_csv(here("data-raw/10_1_data_epw_series_per_capita_sdp_net.csv")) -> india_states_gdppc
 
 tidyr::pivot_longer(data = india_states_gdppc,
                     cols = c(-1),
@@ -74,11 +74,71 @@ rbind(
 ) -> data_gdp_future # India National level data with years till 2050 for future time series charts. Has GDP and GDP per capita
 
 
+
+# data prep for states forward looking ------------------------------------
+
+## read data of states pop projections
+
+read_csv("data-raw/12_data_states_pop_projection_census.csv") -> pop_projections_states
+
+pop_projections_states %>%
+  rename(states = State, year = Year, pop_proj = `Projected population`) %>%
+  select(year, states, pop_proj) %>%
+  mutate(
+    states = stringr::str_to_upper(states),
+    pop_proj = pop_proj*1000
+  ) %>%
+  filter(year>2020) %>%
+  filter(!(states %in% c("THE DADRA AND NAGAR HAVELI AND DAMAN AND DIU",
+                         "LAKSHADWEEP"))) %>%
+  mutate(
+    states = stringr::str_replace(states,pattern = "LADAKH",replacement = "JAMMU AND KASHMIR")
+  ) %>%
+  group_by(states, year) %>%
+  summarise(
+    pop_proj = sum(pop_proj,na.rm = T)
+  ) %>%
+  ungroup() %>%
+  mutate(
+    gdp = NA_integer_,
+    gdppc = NA_integer_
+  ) %>%
+  relocate(year,states,pop_proj,gdp,gdppc) -> pop_projections_states
+
+## create a single df for states actual gdp and gdppc
+
+india_states_gdp %>%
+  mutate(
+    uid = paste(year,states)
+  ) %>%
+  left_join(
+    india_states_gdppc %>%
+      mutate(
+        uid = paste(year,states)
+      ),
+    by = "uid"
+  ) %>%
+  rename(year = year.x, states = states.x) %>%
+  select(year, states, gdp, gdppc) %>%
+  mutate(
+    pop_proj = NA_integer_
+  ) %>%
+  relocate(year,states,pop_proj,gdp,gdppc) -> states_gdp_gdppc
+
+## create a unified data frame
+
+rbind(
+  states_gdp_gdppc,
+  pop_projections_states
+) -> data_states_future
+
+
 # write to sysdata --------------------------------------------------------
 
 
 usethis::use_data(data_gdp,data_gdppc_countries,
                   data_gdp_future,india_states_gdp,
                   india_states_gdppc,data_gdp_countries,
+                  data_states_future,
                   overwrite = T,internal = T)
 
