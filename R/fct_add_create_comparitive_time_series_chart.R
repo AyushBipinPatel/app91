@@ -21,9 +21,7 @@ add_create_comparitive_time_series_chart  <- function(data_fetch,
                                                       plt_title,
                                                       flname,
                                                       labx,
-                                                      laby,
-                                                      ref_val_gdp = NULL,
-                                                      ref_val_gdppc = NULL) {
+                                                      laby) {
 
   if(xval == "gdp_current_usd" | xval == "gdp"){
     highcharter::hchart(data_fetch, "line",
@@ -56,22 +54,7 @@ add_create_comparitive_time_series_chart  <- function(data_fetch,
                           }")
                             },
                           format = "${text}"
-                          ),
-                          plotLines = list(
-                            list(
-                              label = list(text = "GDP of the selected Country",
-                                           style = list(
-                                             color = "#e7eced",
-                                             fontSize = 15
-                                           )),
-                              color = "#74aadb",
-                              width = 2,
-                              value = ref_val_gdp
-                            )
-                          ),
-                          max = ifelse(is.null(ref_val_gdp),NA,
-                                       ifelse(ref_val_gdp > max(data_fetch[[yval]], na.rm = T),
-                                              ref_val_gdp,max(data_fetch[[yval]], na.rm = T)))
+                          )
                           ) %>%
       highcharter::hc_tooltip(
         shared = T,
@@ -103,22 +86,7 @@ add_create_comparitive_time_series_chart  <- function(data_fetch,
                               }else{
                                 htmlwidgets::JS("function(){return this.value + 'USD'}")
                               },
-                          format = "${text}"),
-                          plotLines = list(
-                            list(
-                              label = list(text = "GDP per capita of the selected Country",
-                                           style = list(
-                                             color = "#e7eced",
-                                             fontSize = 15
-                                           )),
-                              color = "#74aadb",
-                              width = 2,
-                              value = ref_val_gdppc
-                            )
-                          ),
-                          max = ifelse(is.null(ref_val_gdppc),NA,
-                                       ifelse(ref_val_gdppc > max(data_fetch[[yval]], na.rm = T),
-                                              ref_val_gdppc,max(data_fetch[[yval]], na.rm = T)))
+                          format = "${text}")
                           ) %>%
       highcharter::hc_tooltip(
         shared = T,
