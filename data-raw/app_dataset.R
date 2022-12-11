@@ -14,19 +14,11 @@ library(readr)
 
 # India's national level gdp and gdppc data
 read_csv("data-raw/1_data_gdp_and_percapita_gdp.csv") -> data_gdp
-# 15 countries of interest with their national level gdppc data
-read_csv("data-raw/7_data_countries_interest_compare_gdp_per_capita_forward.csv") -> data_gdppc_countries
-# 15 countries of interest with their gdp
-read_csv("data-raw/11_data_countries_interest_compare_gdp.csv")-> data_gdp_countries
+# countries of interest with their national level gdppc and gdp data
 
-data_gdp_countries %>%
-  mutate(
-    across(.cols = contains("YR"),.fns = as.numeric)
-  ) %>%
-  tidyr::pivot_longer(cols = c(2:62),names_to = "Year",values_to = "gdp",values_drop_na = T) %>%
-  mutate(
-    Year = stringr::str_extract(Year,"....")|>as.numeric()
-  )-> data_gdp_countries
+read_csv("data-raw/13_data_comparitive_countries.csv") %>%
+  janitor::clean_names()-> data_cc
+
 
 
 # State gdp data for india
@@ -136,9 +128,9 @@ rbind(
 # write to sysdata --------------------------------------------------------
 
 
-usethis::use_data(data_gdp,data_gdppc_countries,
+usethis::use_data(data_gdp,data_cc,
                   data_gdp_future,india_states_gdp,
-                  india_states_gdppc,data_gdp_countries,
+                  india_states_gdppc,
                   data_states_future,
                   overwrite = T,internal = T)
 
